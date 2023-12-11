@@ -4,3 +4,6 @@
 [submodule "template-overview"]
 	path = template-overview
 	url = git@github.com:chimera-lab/template-overview.git
+[submodule "template-topic"]
+	path = template-topic
+	url = git@github.com:chimera-lab/template-topic.git
