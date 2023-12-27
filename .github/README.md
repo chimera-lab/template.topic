@@ -4,23 +4,9 @@
 
 - [Chimera-lab - Template Topic Repository](#chimera-lab---template-topic-repository)
   - [Submodules](#submodules)
-    - [administration](#administration)
-    - [analytics](#analytics)
-    - [art](#art)
-    - [artificial-intelligence](#artificial-intelligence)
-    - [automation](#automation)
-    - [contributions](#contributions)
-    - [devops](#devops)
-    - [diy](#diy)
-    - [finance](#finance)
-    - [hardware](#hardware)
-    - [ideas](#ideas)
-    - [network](#network)
-    - [original](#original)
-    - [operating-systems](#operating-systems)
-    - [security](#security)
-    - [software](#software)
-    - [template](#template)
+    - [template-overview](#template-overview)
+    - [template-repository](#template-repository)
+    - [template-topic](#template-topic)
   - [Appendix](#appendix)
     - [:mag: Glossary](#mag-glossary)
       - [Repository](#repository)
@@ -28,39 +14,11 @@
 
 ## Submodules
 
-### [administration](https://github.com/chimera-lab/administration)
+### [template-overview](https://github.com/chimera-lab/template-overview)
 
-### [analytics](https://github.com/chimera-lab/analytics)
+### [template-repository](https://github.com/chimera-lab/template-overview)
 
-### [art](https://github.com/chimera-lab/art)
-
-### [artificial-intelligence](https://github.com/chimera-lab/artificial-intelligence)
-
-### [automation](https://github.com/chimera-lab/automation)
-
-### [contributions](https://github.com/chimera-lab/contributions)
-
-### [devops](https://github.com/chimera-lab/devops)
-
-### [diy](https://github.com/chimera-lab/diy)
-
-### [finance](https://github.com/chimera-lab/finance)
-
-### [hardware](https://github.com/chimera-lab/hardware)
-
-### [ideas](https://github.com/chimera-lab/ideas)
-
-### [network](https://github.com/chimera-lab/network)
-
-### [original](https://github.com/chimera-lab/original)
-
-### [operating-systems](https://github.com/chimera-lab/operating-systems)
-
-### [security](https://github.com/chimera-lab/security)
-
-### [software](https://github.com/chimera-lab/software)
-
-### [template](https://github.com/chimera-lab/template)
+### [template-topic](https://github.com/chimera-lab/template-overview)
 
 ## Appendix
 
