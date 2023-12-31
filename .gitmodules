@@ -7,3 +7,6 @@
 [submodule "template-topic"]
 	path = template-topic
 	url = git@github.com:chimera-lab/template-topic.git
+[submodule "template-diy"]
+	path = template-diy
+	url = git@github.com:chimera-lab/template-diy.git
