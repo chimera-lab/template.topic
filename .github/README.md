@@ -1,18 +1,20 @@
 # Chimera-lab - Template Topic Repository
 
+<!--(version=1.0.0)-->
+
 ![Chimera-lab :lion: :goat: :snake:](https://github.com/chimera-lab/art/blob/main/logo/novem/chimera-lab-banner.png "Chimera-lab")
 
 - [Chimera-lab - Template Topic Repository](#chimera-lab---template-topic-repository)
-  - [Submodules](#submodules)
+  - [:file\_cabinet: Submodule](#file_cabinet-submodule)
     - [template-overview](#template-overview)
     - [template-repository](#template-repository)
     - [template-topic](#template-topic)
-  - [Appendix](#appendix)
+  - [:paperclip: Appendix](#paperclip-appendix)
     - [:mag: Glossary](#mag-glossary)
-      - [Repository](#repository)
+      - [:mag: Repository](#mag-repository)
     - [:books: References](#books-references)
 
-## Submodules
+## :file_cabinet: Submodule
 
 ### [template-overview](https://github.com/chimera-lab/template-overview)
 
@@ -20,11 +22,11 @@
 
 ### [template-topic](https://github.com/chimera-lab/template-overview)
 
-## Appendix
+## :paperclip: Appendix
 
 ### :mag: Glossary
 
-#### Repository
+#### :mag: Repository
 
 > _"In version control systems, a repository is a data structure that stores metadata for a set of files or directory structure."_ [^1]
 
