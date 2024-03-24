@@ -6,9 +6,12 @@
 
 - [Chimera-lab - Template Topic Repository](#chimera-lab---template-topic-repository)
   - [:file\_cabinet: Submodule](#file_cabinet-submodule)
-    - [template-overview](#template-overview)
-    - [template-repository](#template-repository)
-    - [template-topic](#template-topic)
+    - [:file\_cabinet: template-diy](#file_cabinet-template-diy)
+    - [:file\_cabinet: template-overview](#file_cabinet-template-overview)
+    - [:file\_cabinet: template-project](#file_cabinet-template-project)
+    - [:file\_cabinet: template-repository](#file_cabinet-template-repository)
+    - [:file\_cabinet: template-scaffold](#file_cabinet-template-scaffold)
+    - [:file\_cabinet: template-topic](#file_cabinet-template-topic)
   - [:paperclip: Appendix](#paperclip-appendix)
     - [:mag: Glossary](#mag-glossary)
       - [:mag: Repository](#mag-repository)
@@ -16,11 +19,17 @@
 
 ## :file_cabinet: Submodule
 
-### [template-overview](https://github.com/chimera-lab/template-overview)
+### :file_cabinet: [template-diy](https://github.com/chimera-lab/template-diy)
 
-### [template-repository](https://github.com/chimera-lab/template-overview)
+### :file_cabinet: [template-overview](https://github.com/chimera-lab/template-overview)
 
-### [template-topic](https://github.com/chimera-lab/template-overview)
+### :file_cabinet: [template-project](https://github.com/chimera-lab/template-project)
+
+### :file_cabinet: [template-repository](https://github.com/chimera-lab/template-repository)
+
+### :file_cabinet: [template-scaffold](https://github.com/chimera-lab/template-scaffold)
+
+### :file_cabinet: [template-topic](https://github.com/chimera-lab/template-topic)
 
 ## :paperclip: Appendix
 
