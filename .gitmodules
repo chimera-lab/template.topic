@@ -1,21 +1,21 @@
-[submodule "template-overview"]
-	path = template-overview
-	url = git@github.com:chimera-lab/template-overview.git
-[submodule "template-topic"]
-	path = template-topic
-	url = git@github.com:chimera-lab/template-topic.git
-[submodule "template-diy"]
-	path = template-diy
-	url = git@github.com:chimera-lab/template-diy.git
-[submodule "template-repository"]
-	path = template-repository
-	url = git@github.com:chimera-lab/template-repository.git
-[submodule "template-scaffold"]
-	path = template-scaffold
-	url = git@github.com:chimera-lab/template-scaffold.git
-[submodule "template-project"]
-	path = template-project
-	url = git@github.com:chimera-lab/template-project.git
-[submodule "template-app"]
-	path = template-app
-	url = git@github.com:chimera-lab/template-app.git
+[submodule "overview.template"]
+	path = overview.template
+	url = git@github.com:chimera-lab/overview.template.git
+[submodule "topic.template"]
+	path = topic.template
+	url = git@github.com:chimera-lab/topic.template.git
+[submodule "diy.template"]
+	path = diy.template
+	url = git@github.com:chimera-lab/diy.template.git
+[submodule "repository.template"]
+	path = repository.template
+	url = git@github.com:chimera-lab/repository.template.git
+[submodule "scaffold.template"]
+	path = scaffold.template
+	url = git@github.com:chimera-lab/scaffold.template.git
+[submodule "project.template"]
+	path = project.template
+	url = git@github.com:chimera-lab/project.template.git
+[submodule "app.template"]
+	path = app.template
+	url = git@github.com:chimera-lab/app.template.git
