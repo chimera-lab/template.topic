@@ -19,3 +19,12 @@
 [submodule "app.template"]
 	path = app.template
 	url = git@github.com:chimera-lab/app.template.git
+[submodule "docker_scaffold.template"]
+	path = docker_scaffold.template
+	url = git@github.com:chimera-lab/docker_scaffold.template.git
+[submodule "laravel_app.template"]
+	path = laravel_app.template
+	url = git@github.com:chimera-lab/laravel_app.template.git
+[submodule "org.template"]
+	path = org.template
+	url = git@github.com:chimera-lab/org.template.git
