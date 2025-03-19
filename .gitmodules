@@ -28,3 +28,6 @@
 [submodule "org.template"]
 	path = org.template
 	url = git@github.com:chimera-lab/org.template.git
+[submodule "laravel_docker_scaffold.template"]
+	path = laravel_docker_scaffold.template
+	url = git@github.com:chimera-lab/laravel_docker_scaffold.template.git
