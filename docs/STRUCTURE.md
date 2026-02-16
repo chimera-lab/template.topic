@@ -2,15 +2,15 @@
 
 ## :book: Table of Contents
 
-- [:file\_folder: Repository Structure](./#file_folder-repository-structure)
+- [:file_folder: Repository Structure](./#file_folder-repository-structure)
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
-  - [:building\_construction: Structure](./#building_construction-structure)
-    - [:building\_construction: Root Level](./#building_construction-root-level)
-    - [:building\_construction: `.chimera-lab/` Directory](./#building_construction-chimera-lab-directory)
-    - [:building\_construction: `.github/` Directory](./#building_construction-github-directory)
-    - [:building\_construction: Documentation Hierarchy](./#building_construction-documentation-hierarchy)
-    - [:building\_construction: Configuration Hierarchy](./#building_construction-configuration-hierarchy)
+  - [:building_construction: Structure](./#building_construction-structure)
+    - [:building_construction: Root Level](./#building_construction-root-level)
+    - [:building_construction: `.chimera-lab/` Directory](./#building_construction-chimera-lab-directory)
+    - [:building_construction: `.github/` Directory](./#building_construction-github-directory)
+    - [:building_construction: Documentation Hierarchy](./#building_construction-documentation-hierarchy)
+    - [:building_construction: Configuration Hierarchy](./#building_construction-configuration-hierarchy)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview

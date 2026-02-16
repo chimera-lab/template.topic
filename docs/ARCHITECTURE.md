@@ -2,11 +2,11 @@
 
 ## :book: Table of Contents
 
-- [:file\_folder: Architecture](./#file_folder-architecture)
+- [:file_folder: Architecture](./#file_folder-architecture)
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
-  - [:building\_construction: Structure](./#building_construction-structure)
-  - [:triangular\_ruler: Technologies](./#triangular_ruler-technologies)
+  - [:building_construction: Structure](./#building_construction-structure)
+  - [:triangular_ruler: Technologies](./#triangular_ruler-technologies)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview

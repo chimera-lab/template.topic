@@ -2,7 +2,7 @@
 
 ## :book: Table of Contents
 
-- [:file\_folder: Roadmap](./#file_folder-roadmap)
+- [:file_folder: Roadmap](./#file_folder-roadmap)
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:memo: To-Do List](./#memo-to-do-list)

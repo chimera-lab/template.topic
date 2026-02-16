@@ -1,36 +1,40 @@
 ---
-name: work
-description: Break down and execute work-related tasks
+description: 'Execute general development and engineering tasks.'
 ---
 
 # :file_folder: Work
 
 ## :book: Table of Contents
 
-- [:file\_folder: Work](./#file_folder-work)
+- [:file_folder: Work](./#file_folder-work)
   - [:book: Table of Contents](./#book-table-of-contents)
-  - [:world\_map: Guides](./#world_map-guides)
-    - [:compass: Understand Requirements](./#compass-understand-requirements)
-    - [:compass: Break Down Tasks](./#compass-break-down-tasks)
-    - [:compass: Execute](./#compass-execute)
+  - [:world_map: Guides](./#world_map-guides)
+    - [:world_map: Workflow](./#world_map-workflow)
+    - [:world_map: Output](./#world_map-output)
+  - [:dart: Skills](./#dart-skills)
 
 ## :world_map: Guides
 
-### :compass: Understand Requirements
+### :world_map: Workflow
 
-- Clarify what needs to be done
-- Identify constraints and dependencies
-- Define success criteria
+- Understand the task from user request or issue context.
+- Research and gather necessary context from codebase, documentation, and knowledge.
+- Plan execution steps using `manage_todo_list`.
+- Implement changes following project conventions.
+- Validate changes with tests, linters, and reviews.
+- Commit with conventional format and push changes.
 
-### :compass: Break Down Tasks
+### :world_map: Output
 
-- Divide into smaller actionable steps
-- Create logical sequence
-- Identify parallel opportunities
+- Completed tasks with verification.
+- Commit hash and message.
+- Updated issue status (if applicable).
+- Documentation updates (if applicable).
 
-### :compass: Execute
+## :dart: Skills
 
-- Follow steps systematically
-- Test and validate
-- Document progress
-- Handle issues immediately
+- [:dart: code](../skills/code/SKILL.md)
+- [:dart: plan](../skills/plan/SKILL.md)
+- [:dart: research](../skills/research/SKILL.md)
+- [:dart: review](../skills/review/SKILL.md)
+- [:dart: explain](../skills/explain/SKILL.md)

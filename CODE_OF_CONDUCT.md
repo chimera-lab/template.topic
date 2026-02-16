@@ -4,12 +4,12 @@ This Code of Conduct sets clear expectations for respectful, inclusive collabora
 
 ## :book: Table of Contents
 
-- [:file\_folder: Code of Conduct](./#file_folder-code-of-conduct)
+- [:file_folder: Code of Conduct](./#file_folder-code-of-conduct)
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:warning: Warnings](./#warning-warnings)
-  - [:building\_construction: Structure](./#building_construction-structure)
+  - [:building_construction: Structure](./#building_construction-structure)
   - [:keyboard: Usage](./#keyboard-usage)
   - [:toolbox: Tools](./#toolbox-tools)
 

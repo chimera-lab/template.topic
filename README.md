@@ -4,7 +4,7 @@ Repository template providing the standard structure, docs, and contribution wor
 
 ## :book: Table of Contents
 
-- [:file\_folder: {{repository.name}}](./#file_folder-repositoryname)
+- [:file_folder: {{repository.name}}](./#file_folder-repositoryname)
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:books: References](./#books-references)

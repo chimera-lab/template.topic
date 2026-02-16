@@ -2,25 +2,25 @@
 
 ## :book: Table of Contents
 
-- [:file\_folder: Development Environment Setup](./#file_folder-development-environment-setup)
+- [:file_folder: Development Environment Setup](./#file_folder-development-environment-setup)
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:clipboard: Requirements](./#clipboard-requirements)
-  - [:inbox\_tray: Installation](./#inbox_tray-installation)
-    - [:inbox\_tray: Clone the repository](./#inbox_tray-clone-the-repository)
-    - [:inbox\_tray: Create development environment](./#inbox_tray-create-development-environment)
-    - [:inbox\_tray: Install dependencies](./#inbox_tray-install-dependencies)
-    - [:inbox\_tray: Install pre-commit hooks (optional but recommended)](./#inbox_tray-install-pre-commit-hooks-optional-but-recommended)
+  - [:inbox_tray: Installation](./#inbox_tray-installation)
+    - [:inbox_tray: Clone the repository](./#inbox_tray-clone-the-repository)
+    - [:inbox_tray: Create development environment](./#inbox_tray-create-development-environment)
+    - [:inbox_tray: Install dependencies](./#inbox_tray-install-dependencies)
+    - [:inbox_tray: Install pre-commit hooks (optional but recommended)](./#inbox_tray-install-pre-commit-hooks-optional-but-recommended)
   - [:keyboard: Usage](./#keyboard-usage)
   - [:toolbox: Tools](./#toolbox-tools)
     - [:toolbox: Running Tests](./#toolbox-running-tests)
     - [:toolbox: Code Quality](./#toolbox-code-quality)
     - [:toolbox: Pre-commit Hooks](./#toolbox-pre-commit-hooks)
   - [:wrench: Configuration](./#wrench-configuration)
-  - [:control\_knobs: Customization](./#control_knobs-customization)
-  - [:hammer\_and\_wrench: Common Problems](./#hammer_and_wrench-common-problems)
-    - [:hammer\_and\_wrench: Dependency errors](./#hammer_and_wrench-dependency-errors)
-    - [:hammer\_and\_wrench: Pre-commit failures](./#hammer_and_wrench-pre-commit-failures)
-    - [:hammer\_and\_wrench: Test failures](./#hammer_and_wrench-test-failures)
+  - [:control_knobs: Customization](./#control_knobs-customization)
+  - [:hammer_and_wrench: Common Problems](./#hammer_and_wrench-common-problems)
+    - [:hammer_and_wrench: Dependency errors](./#hammer_and_wrench-dependency-errors)
+    - [:hammer_and_wrench: Pre-commit failures](./#hammer_and_wrench-pre-commit-failures)
+    - [:hammer_and_wrench: Test failures](./#hammer_and_wrench-test-failures)
 
 ## :clipboard: Requirements
 

@@ -1,0 +1,35 @@
+---
+agent: 'developer'
+description: 'Analyze and explain issues, code, or architectural concepts.'
+---
+
+# :file_folder: Explain
+
+## :book: Table of Contents
+
+- [:file_folder: Explain](./#file_folder-explain)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:world_map: Guides](./#world_map-guides)
+    - [:world_map: Workflow](./#world_map-workflow)
+    - [:world_map: Output](./#world_map-output)
+  - [:dart: Skills](./#dart-skills)
+
+## :world_map: Guides
+
+### :world_map: Workflow
+
+- Identify the subject to explain (issue, code, concept).
+- Gather context from documentation, knowledge, and codebase.
+- Produce a clear, structured explanation.
+- Reference related docs for deeper understanding.
+
+### :world_map: Output
+
+- Summary of the analyzed subject.
+- Key takeaways or actionable steps.
+- Links to relevant documentation.
+
+## :dart: Skills
+
+- [:dart: explain](../skills/explain/SKILL.md)
+- [:dart: research](../skills/research/SKILL.md)
