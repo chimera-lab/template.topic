@@ -1,54 +1,61 @@
 ---
 name: repository
-description: Repository management patterns and workflows
+description: Patterns for repository structure, organization, and template management
 ---
 
-# :file_folder: Repository Management Knowledge
+# :file_folder: Repository Knowledge
 
 ## :book: Table of Contents
 
-- [:file\_folder: Repository Management Knowledge](./#file_folder-repository-management-knowledge)
+- [:file_folder: Repository Knowledge](./#file_folder-repository-knowledge)
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
-  - [:world\_map: Guides](./#world_map-guides)
-    - [:world\_map: Branching Strategy](./#world_map-branching-strategy)
-    - [:world\_map: Conventional Commits](./#world_map-conventional-commits)
-  - [:toolbox: Tools](./#toolbox-tools)
-    - [:toolbox: `cmr`](./#toolbox-cmr)
+  - [:world_map: Guides](./#world_map-guides)
+    - [:world_map: Repository Structure](./#world_map-repository-structure)
+    - [:world_map: Naming Conventions](./#world_map-naming-conventions)
+    - [:world_map: Template Hierarchy](./#world_map-template-hierarchy)
+    - [:world_map: Metadata Management](./#world_map-metadata-management)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview
 
-This document describes repository management patterns, workflows, and best practices for chimera-lab repositories.
+Repository knowledge defines the structure, naming conventions, template hierarchy, and metadata management for chimera-lab repositories. All repositories follow standardized patterns with suffix-based typing and template inheritance.
 
 ## :world_map: Guides
 
-### :world_map: Branching Strategy
+### :world_map: Repository Structure
 
-- `main` - Stable release branch
-- `develop` - Active development
-- `feature/*` - Feature branches
-- `fix/*` - Bug fixes
+- Root: README, LICENSE, CHANGELOG, CODE_OF_CONDUCT, CONTRIBUTING, SECURITY, DEVELOPMENT.
+- `.github/`: agents, prompts, skills, workflows directories.
+- `docs/`: ARCHITECTURE, ORGANIZATION, ROADMAP, STRUCTURE, knowledge/, diagrams/.
+- `.chimera-lab/`: meta.json for repository metadata and template tracking.
+- Standard directories based on type: `src/` for code, `lib/` for libraries, `bin/` for executables.
 
-### :world_map: Conventional Commits
+### :world_map: Naming Conventions
 
-```text
-<type>: <description>
+- Repositories: `{name}.{suffix}` format where suffix defines repository type.
+- Suffixes: app (applications), scaffold (project scaffolds), template (repository templates), topic (documentation collections).
+- Agents: `{name}.agent.md` in `.github/agents/`.
+- Prompts: `{name}.prompt.md` in `.github/prompts/`.
+- Skills: `SKILL.md` in `.github/skills/{name}/`.
+- Knowledge: `{name}.knowledge.md` in `docs/knowledge/`.
 
-feat: add new feature
-fix: resolve bug
-docs: update documentation
-chore: maintenance tasks
-refactor: code restructuring
-```
+### :world_map: Template Hierarchy
 
-## :toolbox: Tools
+- `repository.template` is the base template for all chimera-lab repositories.
+- Child templates inherit and extend parent templates.
+- Use `cmr repo template validate` to check synchronization.
+- Use `cmr repo template update` to apply upstream changes.
+- Modify at the highest level that needs the change to avoid duplication across children.
 
-### :toolbox: `cmr`
+### :world_map: Metadata Management
 
-The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+- Use `cmr repo status` to view current repository state.
+- Metadata tracks template ancestry, custom configurations, and organizational context.
+- Keep metadata synchronized with repository structure changes.
 
 ## :books: References
 
-- [:page_facing_up: ../../DEVELOPMENT.md](../../DEVELOPMENT.md)
-- [:page_facing_up: ../../CONTRIBUTING.md](../../CONTRIBUTING.md)
+- [:page_facing_up: ../ORGANIZATION.md](../ORGANIZATION.md)
+- [:page_facing_up: ../STRUCTURE.md](../STRUCTURE.md)
+- [:page_facing_up: ../ARCHITECTURE.md](../ARCHITECTURE.md)
