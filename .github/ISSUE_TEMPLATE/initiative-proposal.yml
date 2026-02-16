@@ -1,0 +1,70 @@
+name: Initiative Proposal
+description: Pitch a new initiative or epic for this topic
+labels:
+  - type:enhancement
+  - type:planning
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### :loudspeaker: Initiative Overview
+        Use this form for structured proposals that need prioritization.
+  - type: input
+    id: summary
+    attributes:
+      label: Initiative Title
+      description: Short name for the initiative
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation & Problem Statement
+      description: Describe the problem/opportunity and why now
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope & Boundaries
+      description: What is in scope vs. explicitly out of scope?
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: Success Criteria
+      description: Define measurable outcomes, KPIs, or exit conditions
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Initiative Owner
+      description: Person/team accountable for driving the work
+    validations:
+      required: true
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline & Milestones
+      description: Note phases, target dates, or blocking events
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources & Dependencies
+      description: Required expertise, tooling, budget, or related initiatives
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks & Mitigations
+      description: Highlight major risks and proposed mitigations
+  - type: checkboxes
+    id: alignment
+    attributes:
+      label: Alignment Checklist
+      options:
+        - label: Success criteria documented
+        - label: Owner identified
+        - label: Dependencies accounted for
+        - label: Budget / effort estimate provided

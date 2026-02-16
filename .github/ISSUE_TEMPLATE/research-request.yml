@@ -1,0 +1,59 @@
+name: Research Request
+description: Ask for investigation, discovery, or validation work
+labels:
+  - type:research
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### :world_map: Research Context
+        Capture the question you need answered and the constraints around it.
+  - type: textarea
+    id: question
+    attributes:
+      label: Research Question
+      description: Clearly state the question or hypothesis
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Background & Current Understanding
+      description: Provide relevant context, links, and findings so far
+    validations:
+      required: true
+  - type: textarea
+    id: outputs
+    attributes:
+      label: Expected Outputs
+      description: Describe the artifacts you expect (doc, diagram, benchmark, etc.)
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints & Assumptions
+      description: Deadlines, tooling restrictions, audiences, or success criteria
+    validations:
+      required: true
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Stakeholders & Reviewers
+      description: List people who should receive the findings
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      options:
+        - asap
+        - this sprint
+        - this quarter
+        - when possible
+    validations:
+      required: true
+  - type: textarea
+    id: followup
+    attributes:
+      label: Follow-up Actions
+      description: Describe what decisions or work depend on this research

@@ -1,0 +1,90 @@
+@startuml
+title Document Relationships
+
+!define AGENT_COLOR #E3F2FD
+!define PROMPT_COLOR #E0F7FA
+!define KNOWLEDGE_COLOR #E8F5E9
+!define DOC_COLOR #FFF3E0
+
+skinparam component {
+  BorderColor #666666
+  FontName Arial
+  FontSize 11
+}
+
+skinparam arrow {
+  Color #757575
+}
+
+package "Agents" {
+  component "project-manager" as project_manager AGENT_COLOR
+  component "prompt-engineer" as prompt_engineer AGENT_COLOR
+  component "repository-manager" as repository_manager AGENT_COLOR
+  component "technical-writer" as technical_writer AGENT_COLOR
+  component "template-architect" as template_architect AGENT_COLOR
+}
+
+package "Prompts" {
+  component "close-task" as close_task PROMPT_COLOR
+  component "commit" as commit PROMPT_COLOR
+  component "explain-issue" as explain_issue PROMPT_COLOR
+  component "fix-context" as fix_context PROMPT_COLOR
+  component "fix-docs" as fix_docs PROMPT_COLOR
+  component "go" as go PROMPT_COLOR
+  component "plan-execution" as plan_execution PROMPT_COLOR
+  component "plan-milestone" as plan_milestone PROMPT_COLOR
+  component "recover-task" as recover_task PROMPT_COLOR
+  component "update-team" as update_team PROMPT_COLOR
+  component "work" as work PROMPT_COLOR
+}
+
+package "Knowledge" {
+  component "automation" as automation KNOWLEDGE_COLOR
+  component "cmr" as cmr KNOWLEDGE_COLOR
+  component "deployment" as deployment KNOWLEDGE_COLOR
+  component "repository" as repository KNOWLEDGE_COLOR
+}
+
+package "Documentation" {
+  component "ARCHITECTURE" as ARCHITECTURE DOC_COLOR
+  component "CHANGELOG" as CHANGELOG DOC_COLOR
+  component "CODE_OF_CONDUCT" as CODE_OF_CONDUCT DOC_COLOR
+  component "CONTRIBUTING" as CONTRIBUTING DOC_COLOR
+  component "DEVELOPMENT" as DEVELOPMENT DOC_COLOR
+  component "ORGANIZATION" as ORGANIZATION DOC_COLOR
+  component "README" as README DOC_COLOR
+  component "ROADMAP" as ROADMAP DOC_COLOR
+  component "SECURITY" as SECURITY DOC_COLOR
+  component "STRUCTURE" as STRUCTURE DOC_COLOR
+}
+
+' Relationships
+automation --> DEVELOPMENT
+automation --> README
+automation --> cmr
+close_task --> repository_manager
+cmr --> ORGANIZATION
+cmr --> README
+cmr --> STRUCTURE
+commit --> repository_manager
+deployment --> CONTRIBUTING
+deployment --> SECURITY
+deployment --> automation
+explain_issue --> project_manager
+fix_context --> prompt_engineer
+fix_docs --> technical_writer
+plan_execution --> project_manager
+plan_milestone --> project_manager
+project_manager --> automation
+project_manager --> deployment
+project_manager --> repository
+recover_task --> project_manager
+repository --> CONTRIBUTING
+repository --> DEVELOPMENT
+repository_manager --> cmr
+technical_writer --> deployment
+technical_writer --> repository
+template_architect --> cmr
+update_team --> prompt_engineer
+
+@enduml

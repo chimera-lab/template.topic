@@ -37,3 +37,6 @@
 [submodule "package.template"]
 	path = package.template
 	url = git@github.com:chimera-lab/package.template.git
+[submodule ".chimera-lab/.template"]
+	path = .chimera-lab/.template
+	url = git@github.com:chimera-lab/topic.template.git

@@ -1,43 +1,29 @@
-# Chimera-lab - Template Topic Repository
+# Chimera-lab - {Topic Name} Template
 
 <!--(version=1.0.0)-->
 
 ![Chimera-lab :lion: :goat: :snake:](https://github.com/chimera-lab/art/blob/main/logo/novem/chimera-lab-banner.png "Chimera-lab")
 
-- [Chimera-lab - Template Topic Repository](#chimera-lab---template-topic-repository)
-  - [:file\_cabinet: Submodule](#filecabinet-submodule)
-    - [:file\_cabinet: template-diy](#filecabinet-template-diy)
-    - [:file\_cabinet: template-overview](#filecabinet-template-overview)
-    - [:file\_cabinet: template-project](#filecabinet-template-project)
-    - [:file\_cabinet: template-repository](#filecabinet-template-repository)
-    - [:file\_cabinet: template-scaffold](#filecabinet-template-scaffold)
-    - [:file\_cabinet: template-topic](#filecabinet-template-topic)
-  - [:paperclip: Appendix](#paperclip-appendix)
-    - [:mag: Glossary](#mag-glossary)
-      - [:mag: Repository](#mag-repository)
-    - [:books: References](#books-references)
+## Table of content
+
+- [:file_cabinet: Submodule](#filecabinet-submodule)
+- [:paperclip: Appendix](#paperclip-appendix)
+  - [:mag: Glossary](#mag-glossary)
+  - [:books: References](#books-references)
 
 ## :file_cabinet: Submodule
 
-### :file_cabinet: [template-diy](https://github.com/chimera-lab/template-diy)
+This topic will contain sub-repositories. Add them as Git submodules and list them here.
 
-### :file_cabinet: [template-overview](https://github.com/chimera-lab/template-overview)
-
-### :file_cabinet: [template-project](https://github.com/chimera-lab/template-project)
-
-### :file_cabinet: [template-repository](https://github.com/chimera-lab/template-repository)
-
-### :file_cabinet: [template-scaffold](https://github.com/chimera-lab/template-scaffold)
-
-### :file_cabinet: [template-topic](https://github.com/chimera-lab/template-topic)
+Example:
+- `subtopic.topic` - Description
+- `study-material.overview` - Description
 
 ## :paperclip: Appendix
 
 ### :mag: Glossary
 
-#### :mag: Repository
-
-> _"In version control systems, a repository is a data structure that stores metadata for a set of files or directory structure."_ [^1]
+**Repository**: _"In version control systems, a repository is a data structure that stores metadata for a set of files or directory structure."_ [^1]
 
 ### :books: References
 

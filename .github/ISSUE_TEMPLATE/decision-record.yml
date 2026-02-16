@@ -1,0 +1,56 @@
+name: Decision Record
+description: Capture an architectural or strategic decision for this topic
+labels:
+  - type:documentation
+  - type:decision
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### :memo: Decision Context
+        Use this template to document decisions, alternatives, and follow-ups.
+  - type: input
+    id: title
+    attributes:
+      label: Decision Title
+      description: Provide a short, descriptive name
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Background information, problem statement, and constraints
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options Considered
+      description: Summaries of each option with pros/cons
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+      description: State the selected option and reasoning
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: List positive outcomes, tradeoffs, and new risks introduced
+    validations:
+      required: true
+  - type: textarea
+    id: followups
+    attributes:
+      label: Follow-up Actions
+      description: Tasks, owners, or dates required to implement the decision
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link related research, issues, ADRs, or documentation
