@@ -15,6 +15,7 @@ description: Patterns for verifying structure, templates, and organization consi
     - [:world_map: Template Validation](./#world_map-template-validation)
     - [:world_map: Naming Conventions](./#world_map-naming-conventions)
     - [:world_map: Semantic Header Vocabulary](./#world_map-semantic-header-vocabulary)
+    - [:world_map: Task completion](./#world_map-task-completion)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview
