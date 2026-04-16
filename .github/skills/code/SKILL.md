@@ -7,14 +7,7 @@ description: Execute development tasks, commit changes, and verify completion
 
 ## :book: Table of Contents
 
-- [:file_folder: Code](./#file_folder-code)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Implementation](./#world_map-implementation)
-    - [:world_map: Task Closure](./#world_map-task-closure)
-    - [:world_map: Output](./#world_map-output)
-  - [:books: References](./#books-references)
+<!-- toc -->
 
 ## :telescope: Overview
 

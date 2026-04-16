@@ -7,17 +7,7 @@ description: Documentation architect - structures templates and header hierarchi
 
 ## :book: Table of Contents
 
-- [:file_folder: Chimera](./#file_folder-chimera)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:wrench: Configuration](./#wrench-configuration)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:clipboard: Requirements](./#clipboard-requirements)
-  - [:toolbox: Tools](./#toolbox-tools)
-    - [:toolbox: `cmr` CLI](./#toolbox-cmr-cli)
-  - [:dart: Skills](./#dart-skills)
-  - [:warning: Warnings](./#warning-warnings)
-  - [:memo: To-Do List](./#memo-to-do-list)
-  - [:notebook: Notes](./#notebook-notes)
+<!-- toc -->
 
 ## :wrench: Configuration
 

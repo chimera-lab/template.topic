@@ -3,7 +3,6 @@
 ## :book: Table of Contents
 
 - [:file_folder: Development Environment Setup](./#file_folder-development-environment-setup)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:inbox_tray: Installation](./#inbox_tray-installation)
     - [:inbox_tray: Clone the repository](./#inbox_tray-clone-the-repository)
@@ -33,8 +32,8 @@
 ### :inbox_tray: Clone the repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone {{repo.remote}}
+cd {{repository.name}}
 ```
 
 ### :inbox_tray: Create development environment

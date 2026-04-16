@@ -3,7 +3,6 @@
 ## :book: Table of Contents
 
 - [:file_folder: Changelog](./#file_folder-changelog)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:notebook: Notes](./#notebook-notes)
     - [:notebook: v0.0.1 – Chimera-LAB](./#notebook-v001-chimera-lab)
     - [:notebook: v0.0.2 – AI Usage](./#notebook-v002-ai-usage)

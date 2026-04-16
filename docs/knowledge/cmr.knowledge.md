@@ -8,7 +8,6 @@ description: CMR CLI tool knowledge and usage patterns
 ## :book: Table of Contents
 
 - [:file_folder: CMR CLI Knowledge](./#file_folder-cmr-cli-knowledge)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:triangular_ruler: Technologies](./#triangular_ruler-technologies)
   - [:building_construction: Structure](./#building_construction-structure)

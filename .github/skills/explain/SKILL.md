@@ -7,14 +7,7 @@ description: Analyze issues, code, or concepts and provide clear explanations
 
 ## :book: Table of Contents
 
-- [:file_folder: Explain](./#file_folder-explain)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Issue Analysis](./#world_map-issue-analysis)
-    - [:world_map: Concept Explanation](./#world_map-concept-explanation)
-    - [:world_map: Output](./#world_map-output)
-  - [:books: References](./#books-references)
+<!-- toc -->
 
 ## :telescope: Overview
 

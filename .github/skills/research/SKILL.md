@@ -7,15 +7,7 @@ description: Discover and gather project context, issues, and codebase informati
 
 ## :book: Table of Contents
 
-- [:file_folder: Research](./#file_folder-research)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Context Discovery](./#world_map-context-discovery)
-    - [:world_map: Issue Gathering](./#world_map-issue-gathering)
-    - [:world_map: Codebase Exploration](./#world_map-codebase-exploration)
-    - [:world_map: Output](./#world_map-output)
-  - [:books: References](./#books-references)
+<!-- toc -->
 
 ## :telescope: Overview
 

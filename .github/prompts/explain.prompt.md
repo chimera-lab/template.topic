@@ -7,12 +7,7 @@ description: 'Analyze and explain issues, code, or architectural concepts.'
 
 ## :book: Table of Contents
 
-- [:file_folder: Explain](./#file_folder-explain)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Workflow](./#world_map-workflow)
-    - [:world_map: Output](./#world_map-output)
-  - [:dart: Skills](./#dart-skills)
+<!-- toc -->
 
 ## :world_map: Guides
 

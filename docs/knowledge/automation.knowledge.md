@@ -8,7 +8,6 @@ description: Patterns for automated workflows, CI/CD, and repository automation
 ## :book: Table of Contents
 
 - [:file_folder: Automation Knowledge](./#file_folder-automation-knowledge)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:world_map: Guides](./#world_map-guides)
     - [:world_map: GitHub Actions](./#world_map-github-actions)

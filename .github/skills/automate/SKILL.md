@@ -7,15 +7,7 @@ description: CI/CD workflows, deployment patterns, and automation management
 
 ## :book: Table of Contents
 
-- [:file_folder: Automate](./#file_folder-automate)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Workflow Management](./#world_map-workflow-management)
-    - [:world_map: Deployment Patterns](./#world_map-deployment-patterns)
-    - [:world_map: Release Automation](./#world_map-release-automation)
-    - [:world_map: Output](./#world_map-output)
-  - [:books: References](./#books-references)
+<!-- toc -->
 
 ## :telescope: Overview
 

@@ -7,12 +7,7 @@ description: 'Structure and manage documentation templates and header hierarchie
 
 ## :book: Table of Contents
 
-- [:file_folder: Template](./#file_folder-template)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Workflow](./#world_map-workflow)
-    - [:world_map: Output](./#world_map-output)
-  - [:dart: Skills](./#dart-skills)
+<!-- toc -->
 
 ## :world_map: Guides
 

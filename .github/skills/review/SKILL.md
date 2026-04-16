@@ -7,15 +7,7 @@ description: Validate code, documentation, and context quality
 
 ## :book: Table of Contents
 
-- [:file_folder: Review](./#file_folder-review)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Documentation Validation](./#world_map-documentation-validation)
-    - [:world_map: Context Validation](./#world_map-context-validation)
-    - [:world_map: Code Validation](./#world_map-code-validation)
-    - [:world_map: Output](./#world_map-output)
-  - [:books: References](./#books-references)
+<!-- toc -->
 
 ## :telescope: Overview
 

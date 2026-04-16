@@ -8,7 +8,6 @@ description: Patterns for executing development, Git, and deployment operations
 ## :book: Table of Contents
 
 - [:file_folder: Operating Knowledge](./#file_folder-operating-knowledge)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:world_map: Guides](./#world_map-guides)
     - [:world_map: Git Operations](./#world_map-git-operations)

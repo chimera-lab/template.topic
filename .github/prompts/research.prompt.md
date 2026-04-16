@@ -7,12 +7,7 @@ description: 'Discover and gather project context, issues, and codebase informat
 
 ## :book: Table of Contents
 
-- [:file_folder: Research](./#file_folder-research)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Workflow](./#world_map-workflow)
-    - [:world_map: Output](./#world_map-output)
-  - [:dart: Skills](./#dart-skills)
+<!-- toc -->
 
 ## :world_map: Guides
 

@@ -3,7 +3,6 @@
 ## :book: Table of Contents
 
 - [:file_folder: Security](./#file_folder-security)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:warning: Warnings](./#warning-warnings)
     - [:warning: Don't open an issue](./#warning-dont-open-an-issue)
     - [:warning: Report privately first](./#warning-report-privately-first)
@@ -29,5 +28,5 @@
 
 ## :books: References
 
-- Primary security contact: [:link: {{org.contacts.email.security}}](mailto:%7B%7BBorg.contacts.email.securit%7D%7D).
+- Primary security contact: [:link: {{org.contacts.email.security}}](mailto:{{org.contacts.email.security}}).
 - Review [:page_facing_up: CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for expected behavior when communicating about security issues.

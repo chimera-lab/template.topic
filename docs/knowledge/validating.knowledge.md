@@ -8,7 +8,6 @@ description: Patterns for verifying structure, templates, and organization consi
 ## :book: Table of Contents
 
 - [:file_folder: Validating Knowledge](./#file_folder-validating-knowledge)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:world_map: Guides](./#world_map-guides)
     - [:world_map: Structure Validation](./#world_map-structure-validation)

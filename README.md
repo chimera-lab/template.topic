@@ -5,14 +5,18 @@ Repository template providing the standard structure, docs, and contribution wor
 ## :book: Table of Contents
 
 - [:file_folder: {{repository.name}}](./#file_folder-repositoryname)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
+  - [:card_file_box: Submodule](./#card_file_box-submodule)
   - [:books: References](./#books-references)
   - [:scroll: License](./#scroll-license)
 
 ## :telescope: Overview
 
 This template provides baseline docs and configuration scaffolds (README, CONTRIBUTING, CODE_OF_CONDUCT) so maintainers can spin up new repositories quickly and contributors can follow a consistent workflow. It covers documentation patterns, contribution guidance, and reference links for projects within {{org.name}}, while leaving application-specific code to each implementation.
+
+## :card_file_box: Submodule
+
+<!-- cmr:<org.submodules> -->
 
 ## :books: References
 

@@ -7,19 +7,7 @@ description: Git and GitHub operations automation for repository management.
 
 ## :book: Table of Contents
 
-- [:file_folder: Maintainer](./#file_folder-maintainer)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:wrench: Configuration](./#wrench-configuration)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:clipboard: Requirements](./#clipboard-requirements)
-  - [:toolbox: Tools](./#toolbox-tools)
-    - [:toolbox: `gh` CLI](./#toolbox-gh-cli)
-    - [:toolbox: `git`](./#toolbox-git)
-    - [:toolbox: `cmr`](./#toolbox-cmr)
-  - [:dart: Skills](./#dart-skills)
-  - [:warning: Warnings](./#warning-warnings)
-  - [:memo: To-Do List](./#memo-to-do-list)
-  - [:notebook: Notes](./#notebook-notes)
+<!-- toc -->
 
 ## :wrench: Configuration
 

@@ -8,7 +8,6 @@ description: Patterns for validating code, documentation, and agent context qual
 ## :book: Table of Contents
 
 - [:file_folder: Reviewing Knowledge](./#file_folder-reviewing-knowledge)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:world_map: Guides](./#world_map-guides)
     - [:world_map: Documentation Review](./#world_map-documentation-review)

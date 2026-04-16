@@ -8,7 +8,6 @@ description: Patterns for releasing, versioning, and deploying chimera-lab proje
 ## :book: Table of Contents
 
 - [:file_folder: Deployment Knowledge](./#file_folder-deployment-knowledge)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:world_map: Guides](./#world_map-guides)
     - [:world_map: Semantic Versioning](./#world_map-semantic-versioning)

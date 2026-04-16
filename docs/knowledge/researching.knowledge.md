@@ -8,7 +8,6 @@ description: Patterns for discovering, gathering, and synthesizing project conte
 ## :book: Table of Contents
 
 - [:file_folder: Researching Knowledge](./#file_folder-researching-knowledge)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:world_map: Guides](./#world_map-guides)
     - [:world_map: Context Discovery](./#world_map-context-discovery)

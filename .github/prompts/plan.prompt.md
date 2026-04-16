@@ -7,12 +7,7 @@ description: 'Create structured execution plans from issues and milestones.'
 
 ## :book: Table of Contents
 
-- [:file_folder: Plan](./#file_folder-plan)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Workflow](./#world_map-workflow)
-    - [:world_map: Output](./#world_map-output)
-  - [:dart: Skills](./#dart-skills)
+<!-- toc -->
 
 ## :world_map: Guides
 

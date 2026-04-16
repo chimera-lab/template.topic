@@ -8,7 +8,6 @@ description: Patterns for repository structure, organization, and template manag
 ## :book: Table of Contents
 
 - [:file_folder: Repository Knowledge](./#file_folder-repository-knowledge)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:world_map: Guides](./#world_map-guides)
     - [:world_map: Repository Structure](./#world_map-repository-structure)

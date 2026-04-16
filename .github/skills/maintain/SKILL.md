@@ -7,15 +7,7 @@ description: Repository maintenance, health checks, and CMR CLI operations
 
 ## :book: Table of Contents
 
-- [:file_folder: Maintain](./#file_folder-maintain)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Repository Health](./#world_map-repository-health)
-    - [:world_map: Documentation Maintenance](./#world_map-documentation-maintenance)
-    - [:world_map: Template Synchronization](./#world_map-template-synchronization)
-    - [:world_map: Output](./#world_map-output)
-  - [:books: References](./#books-references)
+<!-- toc -->
 
 ## :telescope: Overview
 

@@ -5,7 +5,6 @@ This Code of Conduct sets clear expectations for respectful, inclusive collabora
 ## :book: Table of Contents
 
 - [:file_folder: Code of Conduct](./#file_folder-code-of-conduct)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:warning: Warnings](./#warning-warnings)
@@ -35,7 +34,7 @@ We commit to a safe, inclusive, and professional environment. These guidelines a
 
 - Report incidents with factual details (what, when, where, links, participants) and any evidence.
 - Respect confidentiality, only share with designated maintainers or contacts.
-- Primary contact for conduct concerns: [:link: {{org.contacts.email.security}}](mailto:%7B%7Borg.contacts.email.security%7D%7D). Use this channel for private escalation.
+- Primary contact for conduct concerns: [:link: {{org.contacts.email.security}}](mailto:{{org.contacts.email.security}}). Use this channel for private escalation.
 
 ## :toolbox: Tools
 

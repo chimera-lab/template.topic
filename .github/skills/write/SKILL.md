@@ -7,15 +7,7 @@ description: Create and maintain technical documentation and knowledge content
 
 ## :book: Table of Contents
 
-- [:file_folder: Write](./#file_folder-write)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Documentation Writing](./#world_map-documentation-writing)
-    - [:world_map: Knowledge Writing](./#world_map-knowledge-writing)
-    - [:world_map: Quality Checks](./#world_map-quality-checks)
-    - [:world_map: Output](./#world_map-output)
-  - [:books: References](./#books-references)
+<!-- toc -->
 
 ## :telescope: Overview
 

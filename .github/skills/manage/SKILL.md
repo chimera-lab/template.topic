@@ -7,15 +7,7 @@ description: Repository, template, and CMR CLI operations management
 
 ## :book: Table of Contents
 
-- [:file_folder: Manage](./#file_folder-manage)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: Repository Operations](./#world_map-repository-operations)
-    - [:world_map: Template Management](./#world_map-template-management)
-    - [:world_map: CMR CLI Usage](./#world_map-cmr-cli-usage)
-    - [:world_map: Output](./#world_map-output)
-  - [:books: References](./#books-references)
+<!-- toc -->
 
 ## :telescope: Overview
 

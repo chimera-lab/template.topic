@@ -3,7 +3,6 @@
 ## :book: Table of Contents
 
 - [:file_folder: Organization](./#file_folder-organization)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:building_construction: Structure](./#building_construction-structure)
     - [:building_construction: Knowledge & Research](./#building_construction-knowledge-research)
@@ -25,11 +24,11 @@ repository-name.suffix/
 ├── .chimera-lab/           # Repository metadata
 │   ├── meta.json           # Description, tags, template
 │   └── settings.json       # Configuration
-├── .github/                # GitHub workflows and docs
+├── .github/                # GitHub workflows
 │   ├── agents/             # AI agent definitions
-│   ├── knowledge/          # Knowledge base
-│   ├── docs/               # Detailed documentation
 │   └── prompts/            # Prompt templates
+├── docs/                   # Documentation and knowledge
+│   └── knowledge/          # Knowledge base
 ├── README.md               # Main documentation
 ├── CHANGELOG.md            # Version history
 ├── CONTRIBUTING.md         # Contribution guidelines

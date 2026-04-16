@@ -8,7 +8,6 @@ description: Patterns for structuring work, milestones, and execution order
 ## :book: Table of Contents
 
 - [:file_folder: Planning Knowledge](./#file_folder-planning-knowledge)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:world_map: Guides](./#world_map-guides)
     - [:world_map: Task Decomposition](./#world_map-task-decomposition)

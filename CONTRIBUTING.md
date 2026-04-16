@@ -5,7 +5,6 @@ This guide explains how to prepare your environment, configure the project, and 
 ## :book: Table of Contents
 
 - [:file_folder: Contributing](./#file_folder-contributing)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:wrench: Configuration](./#wrench-configuration)
