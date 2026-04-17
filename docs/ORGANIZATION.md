@@ -15,7 +15,7 @@
 
 ## :telescope: Overview
 
-This document describes the organization structure and repository naming conventions.
+<!-- llm<Organization.Overview> -->
 
 ## :building_construction: Structure
 
@@ -92,7 +92,7 @@ repository.template (base)
     "template": "app.template"
   },
   "remote_template": {
-    "repo": "chimera-lab/app.template",
+    "repo": "{{org.name}}/app.template",
     "branch": "main"
   }
 }
@@ -102,7 +102,7 @@ repository.template (base)
 
 ### :toolbox: `cmr`
 
-The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+The CMR CLI (`cmr`) automates {{org.name}} repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 ## :books: References
 

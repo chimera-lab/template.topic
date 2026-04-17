@@ -1,6 +1,7 @@
 ---
 agent: 'developer'
 description: 'Analyze and explain issues, code, or architectural concepts.'
+model: ['GPT-5.4 (copilot)', 'Claude Sonnet 4.5 (copilot)']
 ---
 
 # :file_folder: Explain

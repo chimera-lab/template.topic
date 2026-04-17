@@ -1,5 +1,6 @@
 ---
 description: 'Execute general development and engineering tasks.'
+model: ['GPT-5.4 (copilot)', 'Claude Sonnet 4.5 (copilot)']
 ---
 
 # :file_folder: Work

@@ -1,6 +1,7 @@
 ---
 agent: 'maintainer'
 description: 'Repository maintenance, health checks, and template synchronization.'
+model: ['GPT-5.4 (copilot)', 'Claude Sonnet 4.5 (copilot)']
 ---
 
 # :file_folder: Maintain
@@ -15,7 +16,7 @@ description: 'Repository maintenance, health checks, and template synchronizatio
 
 - Run `cmr repo status` to check repository health.
 - Validate documentation with `cmr docs validate`.
-- Check template synchronization with `cmr repo template validate`.
+- Check template synchronization with `cmr repo template diff`.
 - Apply fixes with `cmr docs fix` where applicable.
 - Update templates with `cmr repo template update` when needed.
 

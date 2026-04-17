@@ -1,6 +1,7 @@
 ---
 agent: 'writer'
 description: 'Create and maintain technical documentation and knowledge content.'
+model: ['GPT-5.4 (copilot)', 'Claude Sonnet 4.5 (copilot)']
 ---
 
 # :file_folder: Write

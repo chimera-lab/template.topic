@@ -38,7 +38,7 @@ description: CMR CLI tool knowledge and usage patterns
         - [:building_construction: cmr repo labels](./#building_construction-cmr-repo-labels)
         - [:building_construction: cmr repo template](./#building_construction-cmr-repo-template)
         - [:building_construction: cmr repo template list](./#building_construction-cmr-repo-template-list)
-        - [:building_construction: cmr repo template validate](./#building_construction-cmr-repo-template-validate)
+        - [:building_construction: cmr repo template diff](./#building_construction-cmr-repo-template-validate)
         - [:building_construction: cmr repo template update](./#building_construction-cmr-repo-template-update)
         - [:building_construction: cmr repo template reset](./#building_construction-cmr-repo-template-reset)
       - [:building_construction: cmr submodules](./#building_construction-cmr-submodules)
@@ -57,7 +57,7 @@ description: CMR CLI tool knowledge and usage patterns
 
 ## :telescope: Overview
 
-The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+The CMR CLI (`cmr`) automates {{org.name}} repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 ## :triangular_ruler: Technologies
 
@@ -149,15 +149,15 @@ Manage prompt templates: `list`, `show`, `install`, `update`.
 
 ##### :building_construction: cmr repo init
 
-- Initialize chimera-lab structure in an existing repository.
+- Initialize {{org.name}} structure in an existing repository.
 
 ##### :building_construction: cmr repo deinit
 
-- Remove chimera-lab structure (use `--keep-metadata` to retain settings).
+- Remove {{org.name}} structure (use `--keep-metadata` to retain settings).
 
 ##### :building_construction: cmr repo status
 
-- Show repository status and chimera-lab configuration.
+- Show repository status and {{org.name}} configuration.
 
 ##### :building_construction: cmr repo issues
 
@@ -179,7 +179,7 @@ Manage prompt templates: `list`, `show`, `install`, `update`.
 
 - Show template files for the current repository (local and remote info).
 
-##### :building_construction: cmr repo template validate
+##### :building_construction: cmr repo template diff
 
 - Check synchronization between repository files and template sources.
 
@@ -193,7 +193,7 @@ Manage prompt templates: `list`, `show`, `install`, `update`.
 
 #### :building_construction: cmr submodules
 
-- Manage git submodules tracked by chimera-lab.
+- Manage git submodules tracked by {{org.name}}.
 
 #### :building_construction: cmr utils
 

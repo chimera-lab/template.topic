@@ -1,10 +1,12 @@
 {
   "repo": {
-    "name": "",
     "template": "topic.template",
+    "name": "",
     "type": "",
-    "docs": ""
+    "docs": "",
+    "templateHash": "5a26e1ec44505e6a20c64a91d76c0aece70b39fb"
   },
+  "remote_template": "https://github.com/chimera-lab/topic.template",
   "org": {
     "name": "chimera-lab"
   },
@@ -323,6 +325,5 @@
         }
       ]
     }
-  },
-  "remote_template": "https://github.com/chimera-lab/topic.template"
+  }
 }

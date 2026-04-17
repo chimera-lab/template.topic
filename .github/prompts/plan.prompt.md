@@ -1,6 +1,7 @@
 ---
 agent: 'manager'
 description: 'Create structured execution plans from issues and milestones.'
+model: ['Claude Sonnet 4.5 (copilot)', 'GPT-5.4 (copilot)']
 ---
 
 # :file_folder: Plan
