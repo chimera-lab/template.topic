@@ -1,14 +1,13 @@
 ---
 name: developer
 description: Executes development tasks using skills for coding, researching, planning, explaining, reviewing, and updating.
-model: ['Claude Sonnet 4.5 (copilot)', 'GPT-5.4 (copilot)']
 ---
 
 # :file_folder: Developer
 
 ## :book: Table of Contents
 
-<!-- toc -->
+<!-- <toc> --><!-- </toc> -->
 
 ## :wrench: Configuration
 

@@ -1,14 +1,13 @@
 ---
 agent: 'developer'
 description: 'Execute development tasks such as coding, committing, and verifying completion.'
-model: ['Claude Sonnet 4.5 (copilot)', 'GPT-5.4 (copilot)']
 ---
 
 # :file_folder: Code
 
 ## :book: Table of Contents
 
-<!-- toc -->
+<!-- <toc> --><!-- </toc> -->
 
 ## :world_map: Guides
 

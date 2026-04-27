@@ -5,13 +5,13 @@
 - [:file_folder: Roadmap](./#file_folder-roadmap)
   - [:telescope: Overview](./#telescope-overview)
   - [:building_construction: Structure](./#building_construction-structure)
-    - [:world_map: Phase 1: Core Foundation (v0.0.1 — Weeks 1–2)](./#world_map-phase-1-core-foundation-v001-weeks-12)
-    - [:world_map: Phase 2: Documentation & Knowledge (v0.0.1 — Weeks 3–4)](./#world_map-phase-2-documentation-knowledge-v001-weeks-34)
-    - [:world_map: Phase 3: Testing & Quality (v0.0.1 — Weeks 5–6)](./#world_map-phase-3-testing-quality-v001-weeks-56)
-    - [:world_map: Phase 4: Automation & Deployment (v0.0.1 — Weeks 7–8)](./#world_map-phase-4-automation-deployment-v001-weeks-78)
-    - [:world_map: Phase 5: Community & Contribution (v0.0.1 — Weeks 9–10)](./#world_map-phase-5-community-contribution-v001-weeks-910)
-    - [:world_map: Phase 6: Performance Optimization (v0.1.0 — Q3 2026)](./#world_map-phase-6-performance-optimization-v010-q3-2026)
-    - [:world_map: Phase 7: Enterprise & Scale (v1.0.0 — Q4 2026)](./#world_map-phase-7-enterprise-scale-v100-q4-2026)
+    - [:building_construction: Phase 1: Core Foundation (v0.0.1 — Weeks 1–2)](./#building_construction-phase-1-core-foundation-v001-weeks-12)
+    - [:building_construction: Phase 2: Documentation & Knowledge (v0.0.1 — Weeks 3–4)](./#building_construction-phase-2-documentation-knowledge-v001-weeks-34)
+    - [:building_construction: Phase 3: Testing & Quality (v0.0.1 — Weeks 5–6)](./#building_construction-phase-3-testing-quality-v001-weeks-56)
+    - [:building_construction: Phase 4: Automation & Deployment (v0.0.1 — Weeks 7–8)](./#building_construction-phase-4-automation-deployment-v001-weeks-78)
+    - [:building_construction: Phase 5: Community & Contribution (v0.0.1 — Weeks 9–10)](./#building_construction-phase-5-community-contribution-v001-weeks-910)
+    - [:building_construction: Phase 6: Performance Optimization (v0.1.0 — Q3 2026)](./#building_construction-phase-6-performance-optimization-v010-q3-2026)
+    - [:building_construction: Phase 7: Enterprise & Scale (v1.0.0 — Q4 2026)](./#building_construction-phase-7-enterprise-scale-v100-q4-2026)
   - [:memo: To-Do List](./#memo-to-do-list)
     - [:memo: Version 0.0.1 Foundation](./#memo-version-001-foundation)
     - [:memo: Version 0.1.0 Enhancement](./#memo-version-010-enhancement)
@@ -32,7 +32,7 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 
 ## :building_construction: Structure
 
-### :world_map: Phase 1: Core Foundation (v0.0.1 — Weeks 1–2)
+### :building_construction: Phase 1: Core Foundation (v0.0.1 — Weeks 1–2)
 
 **Engineering Goals**: Repository structure, compliance, and basic documentation.
 - [ ] Repository structure and file scaffolding
@@ -40,7 +40,7 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 - [ ] Base documentation (README, CONTRIBUTING, CODE_OF_CONDUCT)
 - [ ] Configuration files (.chimera-lab/meta.json, settings.json)
 
-### :world_map: Phase 2: Documentation & Knowledge (v0.0.1 — Weeks 3–4)
+### :building_construction: Phase 2: Documentation & Knowledge (v0.0.1 — Weeks 3–4)
 
 **Engineering Goals**: Comprehensive docs and LLM-ready knowledge base.
 - [ ] Complete docs/ structure (ARCHITECTURE, ORGANIZATION, STRUCTURE, ROADMAP)
@@ -48,7 +48,7 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 - [ ] Cross-linking between knowledge and docs
 - [ ] CMR validation passing on all files
 
-### :world_map: Phase 3: Testing & Quality (v0.0.1 — Weeks 5–6)
+### :building_construction: Phase 3: Testing & Quality (v0.0.1 — Weeks 5–6)
 
 **Engineering Goals**: Quality standards and automated validation.
 - [ ] Unit test suite setup
@@ -56,7 +56,7 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 - [ ] Documentation validation (CMR check)
 - [ ] Test coverage reporting
 
-### :world_map: Phase 4: Automation & Deployment (v0.0.1 — Weeks 7–8)
+### :building_construction: Phase 4: Automation & Deployment (v0.0.1 — Weeks 7–8)
 
 **Engineering Goals**: CI/CD workflows and release automation.
 - [ ] GitHub Actions CI/CD pipelines
@@ -64,7 +64,7 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 - [ ] Automated documentation validation
 - [ ] Release automation and CHANGELOG management
 
-### :world_map: Phase 5: Community & Contribution (v0.0.1 — Weeks 9–10)
+### :building_construction: Phase 5: Community & Contribution (v0.0.1 — Weeks 9–10)
 
 **Engineering Goals**: Contribution pathways and community guidelines.
 - [ ] CONTRIBUTING.md with detailed workflows
@@ -72,7 +72,7 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 - [ ] CODE_OF_CONDUCT and security policy
 - [ ] Community onboarding documentation
 
-### :world_map: Phase 6: Performance Optimization (v0.1.0 — Q3 2026)
+### :building_construction: Phase 6: Performance Optimization (v0.1.0 — Q3 2026)
 
 **Engineering Goals**: Performance and advanced features.
 - [ ] Performance profiling and optimization
@@ -80,7 +80,7 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 - [ ] CI/CD platform integrations
 - [ ] Extended knowledge base
 
-### :world_map: Phase 7: Enterprise & Scale (v1.0.0 — Q4 2026)
+### :building_construction: Phase 7: Enterprise & Scale (v1.0.0 — Q4 2026)
 
 **Engineering Goals**: Enterprise readiness and scalability.
 - [ ] Plugin/extension architecture

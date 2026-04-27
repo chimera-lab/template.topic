@@ -15,7 +15,13 @@
 
 ## :telescope: Overview
 
-<!-- llm<Organization.Overview> -->
+<!-- <llm prompt="Organization.Overview" applied> -->
+
+This repository provides the documentation templates used to describe software work consistently across the organization. It defines reusable structures for organizations, repositories, projects, packages, applications, scaffolds, and related topics so teams can publish documentation with a shared layout, vocabulary, and level of detail.
+
+The template set is organized to support topic-oriented documentation that can be adapted across different kinds of software assets while preserving a coherent information architecture. Its purpose is to reduce duplication, improve maintainability, and keep documentation aligned as systems evolve.
+
+<!-- </llm> -->
 
 ## :building_construction: Structure
 
@@ -92,7 +98,7 @@ repository.template (base)
     "template": "app.template"
   },
   "remote_template": {
-    "repo": "{{org.name}}/app.template",
+    "repo": "<!-- <var key="org.name" applied> -->chimera-lab<!-- </var> -->/app.template",
     "branch": "main"
   }
 }
@@ -102,7 +108,7 @@ repository.template (base)
 
 ### :toolbox: `cmr`
 
-The CMR CLI (`cmr`) automates {{org.name}} repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+The CMR CLI (`cmr`) automates <!-- <var key="org.name" applied> -->chimera-lab<!-- </var> --> repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 ## :books: References
 

@@ -1,14 +1,13 @@
 ---
 agent: 'maintainer'
 description: 'Validate code, documentation, and context quality.'
-model: ['GPT-5.4 (copilot)', 'Claude Sonnet 4.5 (copilot)']
 ---
 
 # :file_folder: Review
 
 ## :book: Table of Contents
 
-<!-- toc -->
+<!-- <toc> --><!-- </toc> -->
 
 ## :world_map: Guides
 

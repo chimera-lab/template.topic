@@ -32,8 +32,8 @@
 ### :inbox_tray: Clone the repository
 
 ```bash
-git clone {{repo.remote}}
-cd {{repository.name}}
+git clone <!-- <var key="repo.remote" applied> -->git@github.com:chimera-lab/template.topic.git<!-- </var> -->
+cd <!-- <var key="repository.name"> --><!-- </var> -->
 ```
 
 ### :inbox_tray: Create development environment

@@ -1,14 +1,13 @@
 ---
 agent: 'maintainer'
 description: 'Repository maintenance, health checks, and template synchronization.'
-model: ['GPT-5.4 (copilot)', 'Claude Sonnet 4.5 (copilot)']
 ---
 
 # :file_folder: Maintain
 
 ## :book: Table of Contents
 
-<!-- toc -->
+<!-- <toc> --><!-- </toc> -->
 
 ## :world_map: Guides
 

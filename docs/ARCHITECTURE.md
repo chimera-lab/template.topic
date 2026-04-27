@@ -17,13 +17,39 @@
 
 ## :telescope: Overview
 
-<!-- llm<Architecture.Overview> -->
+<!-- <llm prompt="Architecture.Overview" applied> -->
+
+This repository is organized as a template library for topic-oriented project documentation. Each top-level `*.template/` directory represents a reusable documentation module or scaffold, while the repository root contains shared governance, contribution, and maintenance files used across all templates.
+
+The structure follows a simple separation of concerns:
+
+- Template packages such as `app.template/`, `project.template/`, `repository.template/`, and `topic.template/` define distinct documentation building blocks.
+- Specialized variants such as `laravel_app.template/`, `typescript_app.template/`, and Docker-related templates adapt the same approach for specific technology stacks.
+- `docs/` contains supporting reference material and repository-level design artifacts.
+- Root files such as `README.md`, `DEVELOPMENT.md`, and `Makefile` provide repository guidance and operational entry points.
+
+In practice, the architecture favors modularity over a single monolithic template: common documentation concepts are split into focused template directories so they can be combined, extended, and maintained independently.
+
+<!-- </llm> -->
 
 This document defines the technical architecture baseline for repositories derived from this template. It explains structural boundaries, integration points, and quality controls so implementations remain consistent across inherited templates.
 
 ## :building_construction: Structure
 
-<!-- llm<Architecture.Structure> -->
+<!-- <llm prompt="Architecture.Structure" applied> -->
+
+This repository is organized as a template library, with each top-level `*.template/` directory representing a self-contained documentation or project scaffold variant. Shared repository metadata and contributor guidance live at the root, while cross-cutting reference material is grouped under `docs/`.
+
+The structure follows a clear separation of concerns:
+
+- Root files such as `README.md`, `DEVELOPMENT.md`, `CONTRIBUTING.md`, `SECURITY.md`, and `CHANGELOG.md` define project-wide usage, maintenance, and governance.
+- Template directories such as `app.template/`, `project.template/`, `repository.template/`, `topic.template/`, and related variants contain the actual reusable template content.
+- `docs/` holds supporting documentation and reference assets for understanding and maintaining the template system.
+- `Makefile` provides repository-level automation for common maintenance workflows.
+
+This layout keeps template content isolated from repository operations and documentation, making each template easier to evolve independently while preserving consistent project-wide standards.
+
+<!-- </llm> -->
 
 ### :building_construction: Architectural Layers
 
@@ -71,7 +97,19 @@ Repository Architecture
 
 ## :triangular_ruler: Technologies
 
-<!-- llm<Architecture.Technologies> -->
+<!-- <llm prompt="Architecture.Technologies" applied> -->
+
+This repository is documentation- and template-driven rather than application-runtime driven. Its architecture relies on portable text assets, organized scaffold directories, and lightweight automation to support repeatable repository and project generation workflows.
+
+- **Markdown** is the primary authoring format for documentation and reusable template content.
+- **Template directories** such as `topic.template/`, `project.template/`, `package.template/`, `app.template/`, and framework-specific variants provide structured, composable scaffolds.
+- **Template variables/placeholders** enable organization- or project-specific customization without changing the base template layout.
+- **Make** is used for lightweight repository automation and repeatable maintenance tasks.
+- **GitHub-native repository conventions** are part of the operating model, including standard community, contribution, and security documentation.
+
+The stack is intentionally minimal and text-first, which keeps the repository easy to maintain, review, version, and adapt across different project types.
+
+<!-- </llm> -->
 
 ### :triangular_ruler: Core Toolchain
 

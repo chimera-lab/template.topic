@@ -23,7 +23,13 @@
 
 ## :telescope: Overview
 
-<!-- llm<Structure.Overview> -->
+<!-- <llm prompt="Structure.Overview" applied> -->
+
+This repository is organized as a template collection for documentation topics. The root contains shared project metadata and contributor guidance such as `README.md`, `DEVELOPMENT.md`, `CONTRIBUTING.md`, `CHANGELOG.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md`, `LICENSE`, and `Makefile`, while `docs/` holds supporting reference material and diagrams.
+
+The main content lives in `*.template/` directories. Each template directory represents a documentation scope or delivery target, including general structures such as `overview.template/`, `topic.template/`, `project.template/`, `repository.template/`, `package.template/`, `org.template/`, and `scaffold.template/`, alongside implementation-oriented variants such as `app.template/`, `typescript_app.template/`, `laravel_app.template/`, `docker_scaffold.template/`, and `laravel_docker_scaffold.template/`. This keeps each template self-contained while preserving a consistent repository-wide layout.
+
+<!-- </llm> -->
 
 ## :building_construction: Structure
 
@@ -183,8 +189,24 @@ Documentation placeholders for LLM-guided content generation:
 
 **Patterns**:
 
-- `<!-- llm<SectionName> -->` for README sections such as `Overview` or `Usage`
-- `<!-- llm<Namespace.Section> -->` for documentation pages such as `Architecture.Overview`
+- `<!-- <llm prompt="SectionName" applied> -->
+
+Describe the purpose, scope, and expected usage of this part of the repository. Focus on the key context a contributor or reader needs to understand it quickly, including any important constraints, dependencies, and links to related templates, guides, or source files. Keep the content specific, actionable, and limited to information that helps someone navigate or maintain this repository effectively.
+
+<!-- </llm> -->` for README sections such as `Overview` or `Usage`
+- `<!-- <llm prompt="Namespace.Section" applied> -->
+
+Use `Namespace.Section` for a stable, scoped section name that is easy to read, sort, and reuse across the repository.
+
+- `Namespace` identifies the broader domain, component, or document family.
+- `Section` identifies the specific topic inside that namespace.
+- Prefer clear, reusable names such as `Repository.Overview`, `Project.Setup`, or `Topic.References`.
+- Reuse an existing namespace when the content belongs to an established area; create a new one only when it introduces a distinct domain.
+- Keep names concise, descriptive, and consistently formatted.
+
+This convention improves discoverability, reduces naming collisions, and makes cross-document structure easier to maintain.
+
+<!-- </llm> -->` for documentation pages such as `Architecture.Overview`
 
 **Active mappings by file**:
 
@@ -225,8 +247,8 @@ CMR directives are reserved for generated repository and organization inventorie
 **Syntax**:
 
 ```html
-<!-- cmr:<group.command[key=value,...]> -->
-<!-- cmr:<group.command;applied> -->
+<!-- <cmr cmd="group.command[key=value,...]"> --><!-- </cmr> -->
+<!-- <cmr cmd="group.command" applied> -->...content...<!-- </cmr> -->
 ```
 
 **Supported baseline directives in current workspace**:

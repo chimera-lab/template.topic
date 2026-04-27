@@ -1,14 +1,13 @@
 ---
 agent: 'developer'
 description: 'Discover and gather project context, issues, and codebase information.'
-model: ['Claude Sonnet 4.5 (copilot)', 'GPT-5.4 (copilot)']
 ---
 
 # :file_folder: Research
 
 ## :book: Table of Contents
 
-<!-- toc -->
+<!-- <toc> --><!-- </toc> -->
 
 ## :world_map: Guides
 
