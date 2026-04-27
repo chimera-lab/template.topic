@@ -130,6 +130,7 @@ description: {one-line-summary}
 ```
 
 **Example**:
+
 ```yaml
 ---
 name: cmr
@@ -194,6 +195,7 @@ Documentation placeholders for LLM-guided content generation:
 Describe the purpose, scope, and expected usage of this part of the repository. Focus on the key context a contributor or reader needs to understand it quickly, including any important constraints, dependencies, and links to related templates, guides, or source files. Keep the content specific, actionable, and limited to information that helps someone navigate or maintain this repository effectively.
 
 <!-- </llm> -->` for README sections such as `Overview` or `Usage`
+
 - `<!-- <llm prompt="Namespace.Section" applied> -->
 
 Use `Namespace.Section` for a stable, scoped section name that is easy to read, sort, and reuse across the repository.
@@ -292,6 +294,7 @@ prompts (frontmatter: agent, skills)
 ```
 
 **Allowed references**:
+
 | From | To | Via | Allowed |
 |------|-----|------|---------|
 | Knowledge | docs/ | `:books: References` | ✅ YES |
@@ -302,6 +305,7 @@ prompts (frontmatter: agent, skills)
 | Prompt | Skill | Content references | ✅ YES |
 
 **Forbidden references**:
+
 | From | To | Reason |
 |------|-----|--------|
 | Agent | Agent | No horizontal coupling |
@@ -315,6 +319,7 @@ prompts (frontmatter: agent, skills)
 `.github/` reserved for GitHub-specific automation **only**. No documentation content in `.github/docs/` or `.github/`.
 
 **Directories**:
+
 - `agents/`: AI agent definitions (`*.agent.md` with frontmatter)
 - `prompts/`: Prompt templates (`*.prompt.md` with frontmatter)
 - `skills/`: Agent skills (referenced by agents, not duplicated here)

@@ -40,6 +40,7 @@ The repository is intended to standardize how documentation is organized across 
 No package or binary installation is required to use these templates.
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/chimera-lab/template.topic.git
    cd template.topic
