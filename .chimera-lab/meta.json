@@ -1,10 +1,20 @@
 {
+  "description": "Repository templates inherited by chimera-lab repos",
+  "tags": [
+    "topic",
+    "template"
+  ],
+  "authors": [
+    "chimera-lab"
+  ],
+  "createdAt": "2026-04-28T02:16:23.485Z",
+  "updatedAt": "2026-04-28T02:16:23.485Z",
   "repo": {
     "template": "topic.template",
-    "name": "",
-    "type": "",
-    "docs": "",
-    "templateHash": "5a26e1ec44505e6a20c64a91d76c0aece70b39fb"
+    "templateHash": "5a26e1ec44505e6a20c64a91d76c0aece70b39fb",
+    "name": "template.topic",
+    "type": "topic",
+    "docs": ""
   },
   "remote_template": "https://github.com/chimera-lab/topic.template",
   "org": {
