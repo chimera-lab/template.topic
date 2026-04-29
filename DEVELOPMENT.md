@@ -1,25 +1,25 @@
-# :file_folder: Development Environment Setup
+# :file\_folder: Development Environment Setup
 
 ## :book: Table of Contents
 
-- [:file_folder: Development Environment Setup](./#file_folder-development-environment-setup)
+- [:file\_folder: Development Environment Setup](./#file_folder-development-environment-setup)
   - [:clipboard: Requirements](./#clipboard-requirements)
-  - [:inbox_tray: Installation](./#inbox_tray-installation)
-    - [:inbox_tray: Clone the repository](./#inbox_tray-clone-the-repository)
-    - [:inbox_tray: Create development environment](./#inbox_tray-create-development-environment)
-    - [:inbox_tray: Install dependencies](./#inbox_tray-install-dependencies)
-    - [:inbox_tray: Install pre-commit hooks (optional but recommended)](./#inbox_tray-install-pre-commit-hooks-optional-but-recommended)
+  - [:inbox\_tray: Installation](./#inbox_tray-installation)
+    - [:inbox\_tray: Clone the repository](./#inbox_tray-clone-the-repository)
+    - [:inbox\_tray: Create development environment](./#inbox_tray-create-development-environment)
+    - [:inbox\_tray: Install dependencies](./#inbox_tray-install-dependencies)
+    - [:inbox\_tray: Install pre-commit hooks (optional but recommended)](./#inbox_tray-install-pre-commit-hooks-optional-but-recommended)
   - [:keyboard: Usage](./#keyboard-usage)
   - [:toolbox: Tools](./#toolbox-tools)
     - [:toolbox: Running Tests](./#toolbox-running-tests)
     - [:toolbox: Code Quality](./#toolbox-code-quality)
     - [:toolbox: Pre-commit Hooks](./#toolbox-pre-commit-hooks)
   - [:wrench: Configuration](./#wrench-configuration)
-  - [:control_knobs: Customization](./#control_knobs-customization)
-  - [:hammer_and_wrench: Common Problems](./#hammer_and_wrench-common-problems)
-    - [:hammer_and_wrench: Dependency errors](./#hammer_and_wrench-dependency-errors)
-    - [:hammer_and_wrench: Pre-commit failures](./#hammer_and_wrench-pre-commit-failures)
-    - [:hammer_and_wrench: Test failures](./#hammer_and_wrench-test-failures)
+  - [:control\_knobs: Customization](./#control_knobs-customization)
+  - [:hammer\_and\_wrench: Common Problems](./#hammer_and_wrench-common-problems)
+    - [:hammer\_and\_wrench: Dependency errors](./#hammer_and_wrench-dependency-errors)
+    - [:hammer\_and\_wrench: Pre-commit failures](./#hammer_and_wrench-pre-commit-failures)
+    - [:hammer\_and\_wrench: Test failures](./#hammer_and_wrench-test-failures)
 
 ## :clipboard: Requirements
 
@@ -27,28 +27,28 @@
 - Your project's runtime environment (Node.js, Python, Go, etc.)
 - VS Code (recommended) or your preferred editor
 
-## :inbox_tray: Installation
+## :inbox\_tray: Installation
 
-### :inbox_tray: Clone the repository
+### :inbox\_tray: Clone the repository
 
 ```bash
 git clone <!-- <var key="repo.remote" applied> -->git@github.com:chimera-lab/template.topic.git<!-- </var> -->
 cd <!-- <var key="repository.name"> --><!-- </var> -->
 ```
 
-### :inbox_tray: Create development environment
+### :inbox\_tray: Create development environment
 
 ```bash
 ```
 
-### :inbox_tray: Install dependencies
+### :inbox\_tray: Install dependencies
 
 ```bash
 # Use the appropriate command for your project type
 make install
 ```
 
-### :inbox_tray: Install pre-commit hooks (optional but recommended)
+### :inbox\_tray: Install pre-commit hooks (optional but recommended)
 
 ```bash
 pre-commit install
@@ -114,21 +114,21 @@ If using VS Code, the workspace is pre-configured with:
 - **Debug configurations** for your project type
 - **Task definitions** for common operations
 
-## :control_knobs: Customization
+## :control\_knobs: Customization
 
 ```bash
 ```
 
-## :hammer_and_wrench: Common Problems
+## :hammer\_and\_wrench: Common Problems
 
-### :hammer_and_wrench: Dependency errors
+### :hammer\_and\_wrench: Dependency errors
 
 Ensure you've installed all required dependencies
 
-### :hammer_and_wrench: Pre-commit failures
+### :hammer\_and\_wrench: Pre-commit failures
 
 Run `pre-commit run --all-files` to fix
 
-### :hammer_and_wrench: Test failures
+### :hammer\_and\_wrench: Test failures
 
 Check that all dependencies are correctly installed

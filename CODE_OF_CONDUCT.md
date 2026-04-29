@@ -1,14 +1,14 @@
-# :file_folder: Code of Conduct
+# :file\_folder: Code of Conduct
 
 This Code of Conduct sets clear expectations for respectful, inclusive collaboration across this repository and its community spaces.
 
 ## :book: Table of Contents
 
-- [:file_folder: Code of Conduct](./#file_folder-code-of-conduct)
+- [:file\_folder: Code of Conduct](./#file_folder-code-of-conduct)
   - [:telescope: Overview](./#telescope-overview)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:warning: Warnings](./#warning-warnings)
-  - [:building_construction: Structure](./#building_construction-structure)
+  - [:building\_construction: Structure](./#building_construction-structure)
   - [:keyboard: Usage](./#keyboard-usage)
   - [:toolbox: Tools](./#toolbox-tools)
 
@@ -26,7 +26,7 @@ We commit to a safe, inclusive, and professional environment. These guidelines a
 - No harassment, discrimination, or demeaning conduct based on identity or background.
 - No threats, stalking, doxxing, or deliberate intimidation.
 
-## :building_construction: Structure
+## :building\_construction: Structure
 
 - Applies to code, issues, discussions, reviews, chat channels, and community events (online or in person).
 
@@ -34,7 +34,7 @@ We commit to a safe, inclusive, and professional environment. These guidelines a
 
 - Report incidents with factual details (what, when, where, links, participants) and any evidence.
 - Respect confidentiality, only share with designated maintainers or contacts.
-- Primary contact for conduct concerns: [:link: <!-- <var key="org.contacts.email.security"> --><!-- </var> -->](mailto:<!-- <var key="org.contacts.email.security"> --><!-- </var> -->). Use this channel for private escalation.
+- Primary contact for conduct concerns: \[:link: <!-- <var key="org.contacts.email.security"> --><!-- </var> -->]\(mailto:<!-- <var key="org.contacts.email.security"> --><!-- </var> -->). Use this channel for private escalation.
 
 ## :toolbox: Tools
 

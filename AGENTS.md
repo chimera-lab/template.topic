@@ -1,20 +1,20 @@
-# :file_folder: Agents
+# :file\_folder: Agents
 
 ## :book: Table of Contents
 
-- [:file_folder: Agents](./#file_folder-agents)
+- [:file\_folder: Agents](./#file_folder-agents)
   - [:telescope: Overview](./#telescope-overview)
   - [:books: References](./#books-references)
-  - [:building_construction: Structure](./#building_construction-structure)
-    - [:building_construction: Layer separation pattern](./#building_construction-layer-separation-pattern)
-    - [:building_construction: Key Principles](./#building_construction-key-principles)
-    - [:building_construction: Subagents](./#building_construction-subagents)
-  - [:world_map: Guides](./#world_map-guides)
-    - [:world_map: How to Invoke a Subagent](./#world_map-how-to-invoke-a-subagent)
-    - [:world_map: Writing the Subagent Prompt](./#world_map-writing-the-subagent-prompt)
-    - [:world_map: Routing](./#world_map-routing)
-    - [:world_map: Orchestration Patterns](./#world_map-orchestration-patterns)
-    - [:world_map: Delegation Rules](./#world_map-delegation-rules)
+  - [:building\_construction: Structure](./#building_construction-structure)
+    - [:building\_construction: Layer separation pattern](./#building_construction-layer-separation-pattern)
+    - [:building\_construction: Key Principles](./#building_construction-key-principles)
+    - [:building\_construction: Subagents](./#building_construction-subagents)
+  - [:world\_map: Guides](./#world_map-guides)
+    - [:world\_map: How to Invoke a Subagent](./#world_map-how-to-invoke-a-subagent)
+    - [:world\_map: Writing the Subagent Prompt](./#world_map-writing-the-subagent-prompt)
+    - [:world\_map: Routing](./#world_map-routing)
+    - [:world\_map: Orchestration Patterns](./#world_map-orchestration-patterns)
+    - [:world\_map: Delegation Rules](./#world_map-delegation-rules)
 
 ## :telescope: Overview
 
@@ -24,11 +24,11 @@ You are a Chimera Agent Manager following chimera-lab organization rules. You or
 
 ## :books: References
 
-- [:page_facing_up: agents-relation.puml](./docs/diagrams/agents-relation.puml) - Visualizes relationships between the agent manager, subagents, prompts, skills, knowledge modules, and documentation.
+- [:page\_facing\_up: agents-relation.puml](./docs/diagrams/agents-relation.puml) - Visualizes relationships between the agent manager, subagents, prompts, skills, knowledge modules, and documentation.
 
-## :building_construction: Structure
+## :building\_construction: Structure
 
-### :building_construction: Layer separation pattern
+### :building\_construction: Layer separation pattern
 
 prompts (via frontmatter) → agent manager → subagents (via Skills section) → skills (via References) → knowledge (via References) → docs
 
@@ -36,7 +36,7 @@ Each layer references only the next layer. No skip connections.
 
 The agent ecosystem consists of a manager agent coordinating specialized subagent roles, prompt triggers, reusable skills assigned to each subagent, and knowledge domains that work together to coordinate complex tasks. Refer to the diagram above for complete relationship mapping.
 
-### :building_construction: Key Principles
+### :building\_construction: Key Principles
 
 - Agent manager orchestrates subagents activated through dedicated prompts
 - Subagents are composed of specialized, non-overlapping skill sets
@@ -44,7 +44,7 @@ The agent ecosystem consists of a manager agent coordinating specialized subagen
 - Knowledge modules provide patterns and domain context
 - Documentation is informed by knowledge modules and organizational patterns
 
-### :building_construction: Subagents
+### :building\_construction: Subagents
 
 Each subagent is a dedicated agent file in `.github/agents/`. Use the right subagent for the task.
 
@@ -56,9 +56,9 @@ Each subagent is a dedicated agent file in `.github/agents/`. Use the right suba
 | `chimera`    | Documentation architect | Template structure, header hierarchies, documentation skeletons                            |
 | `writer`     | Technical writer        | Documentation content, knowledge files, technical writing                                  |
 
-## :world_map: Guides
+## :world\_map: Guides
 
-### :world_map: How to Invoke a Subagent
+### :world\_map: How to Invoke a Subagent
 
 To delegate work, launch a subagent with `runSubagent`. Each invocation is stateless — the subagent receives a single prompt, executes autonomously, and returns a single result. You must provide all necessary context in the prompt.
 
@@ -70,7 +70,7 @@ Steps:
 4. Launch via `runSubagent` with the composed prompt.
 5. Receive the result and decide: task complete, or delegate next step to another subagent.
 
-### :world_map: Writing the Subagent Prompt
+### :world\_map: Writing the Subagent Prompt
 
 Every subagent prompt must contain:
 
@@ -91,7 +91,7 @@ Skill: Use the `code` skill from `.github/skills/code/SKILL.md`.
 Output: Return the list of files changed and the commit message used.
 ```
 
-### :world_map: Routing
+### :world\_map: Routing
 
 Match user intent to the correct subagent and prompt:
 
@@ -109,7 +109,7 @@ Match user intent to the correct subagent and prompt:
 
 When intent is ambiguous, default to `work.prompt` → `developer` for technical tasks or `plan.prompt` → `manager` for coordination tasks.
 
-### :world_map: Orchestration Patterns
+### :world\_map: Orchestration Patterns
 
 **Single-agent task** — One subagent can complete the work alone. Route directly.
 
@@ -139,7 +139,7 @@ For every multi-agent task:
 4. Mark each todo as completed after receiving the subagent's result.
 5. Synthesize final results for the user after all subagents complete.
 
-### :world_map: Delegation Rules
+### :world\_map: Delegation Rules
 
 - **Never do the work yourself.** Always delegate to the appropriate subagent.
 - **Never skip the agent file.** Every subagent prompt must reference its `.agent.md` file.
