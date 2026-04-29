@@ -1,24 +1,24 @@
-# :file_folder: Repository Structure
+# :file\_folder: Repository Structure
 
 ## :book: Table of Contents
 
-- [:file_folder: Repository Structure](./#file_folder-repository-structure)
+- [:file\_folder: Repository Structure](./#file_folder-repository-structure)
   - [:telescope: Overview](./#telescope-overview)
-  - [:building_construction: Structure](./#building_construction-structure)
-    - [:building_construction: Root Level](./#building_construction-root-level)
-    - [:building_construction: `.chimera-lab/` Directory](./#building_construction-chimera-lab-directory)
-    - [:building_construction: `.github/` Directory](./#building_construction-github-directory)
-    - [:building_construction: `docs/` Directory](./#building_construction-docs-directory)
-    - [:building_construction: Documentation Hierarchy](./#building_construction-documentation-hierarchy)
-    - [:building_construction: Configuration Hierarchy](./#building_construction-configuration-hierarchy)
-    - [:building_construction: Documentation Patterns & Conventions](./#building_construction-documentation-patterns-conventions)
-      - [:building_construction: Knowledge Files Frontmatter](./#building_construction-knowledge-files-frontmatter)
-      - [:building_construction: Canonical Knowledge Inventory](./#building_construction-canonical-knowledge-inventory)
-      - [:building_construction: Semantic Header Vocabulary](./#building_construction-semantic-header-vocabulary)
-      - [:building_construction: Render Tag Mappings](./#building_construction-render-tag-mappings)
-      - [:building_construction: CMR Directive Catalog](./#building_construction-cmr-directive-catalog)
-      - [:building_construction: Layer Separation Rules](./#building_construction-layer-separation-rules)
-      - [:building_construction: GitHub Automation Structure](./#building_construction-github-automation-structure)
+  - [:building\_construction: Structure](./#building_construction-structure)
+    - [:building\_construction: Root Level](./#building_construction-root-level)
+    - [:building\_construction: `.chimera-lab/` Directory](./#building_construction-chimera-lab-directory)
+    - [:building\_construction: `.github/` Directory](./#building_construction-github-directory)
+    - [:building\_construction: `docs/` Directory](./#building_construction-docs-directory)
+    - [:building\_construction: Documentation Hierarchy](./#building_construction-documentation-hierarchy)
+    - [:building\_construction: Configuration Hierarchy](./#building_construction-configuration-hierarchy)
+    - [:building\_construction: Documentation Patterns & Conventions](./#building_construction-documentation-patterns-conventions)
+      - [:building\_construction: Knowledge Files Frontmatter](./#building_construction-knowledge-files-frontmatter)
+      - [:building\_construction: Canonical Knowledge Inventory](./#building_construction-canonical-knowledge-inventory)
+      - [:building\_construction: Semantic Header Vocabulary](./#building_construction-semantic-header-vocabulary)
+      - [:building\_construction: Render Tag Mappings](./#building_construction-render-tag-mappings)
+      - [:building\_construction: CMR Directive Catalog](./#building_construction-cmr-directive-catalog)
+      - [:building\_construction: Layer Separation Rules](./#building_construction-layer-separation-rules)
+      - [:building\_construction: GitHub Automation Structure](./#building_construction-github-automation-structure)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview
@@ -31,9 +31,9 @@ The main content lives in `*.template/` directories. Each template directory rep
 
 <!-- </llm> -->
 
-## :building_construction: Structure
+## :building\_construction: Structure
 
-### :building_construction: Root Level
+### :building\_construction: Root Level
 
 ```text
 repository/
@@ -50,7 +50,7 @@ repository/
 └── LICENSE                 # License terms
 ```
 
-### :building_construction: `.chimera-lab/` Directory
+### :building\_construction: `.chimera-lab/` Directory
 
 Configuration and metadata:
 
@@ -66,7 +66,7 @@ Configuration and metadata:
     └── validation_rules    # Documentation rules
 ```
 
-### :building_construction: `.github/` Directory
+### :building\_construction: `.github/` Directory
 
 GitHub workflows and automation:
 
@@ -81,7 +81,7 @@ GitHub workflows and automation:
     └── *.yml               # Workflow definitions
 ```
 
-### :building_construction: `docs/` Directory
+### :building\_construction: `docs/` Directory
 
 Documentation and knowledge base:
 
@@ -96,7 +96,7 @@ docs/
     └── *.knowledge.md      # Knowledge files
 ```
 
-### :building_construction: Documentation Hierarchy
+### :building\_construction: Documentation Hierarchy
 
 ```text
 README.md (entry point)
@@ -108,7 +108,7 @@ README.md (entry point)
     └── STRUCTURE.md
 ```
 
-### :building_construction: Configuration Hierarchy
+### :building\_construction: Configuration Hierarchy
 
 ```text
 .chimera-lab/meta.json (metadata)
@@ -116,9 +116,9 @@ README.md (entry point)
     └── custom_variables (template overrides)
 ```
 
-### :building_construction: Documentation Patterns & Conventions
+### :building\_construction: Documentation Patterns & Conventions
 
-#### :building_construction: Knowledge Files Frontmatter
+#### :building\_construction: Knowledge Files Frontmatter
 
 All knowledge files (`.knowledge.md`) require YAML frontmatter at the top:
 
@@ -138,65 +138,65 @@ description: CMR CLI tool reference and command patterns
 ---
 ```
 
-#### :building_construction: Canonical Knowledge Inventory
+#### :building\_construction: Canonical Knowledge Inventory
 
 The repository defines 9 required knowledge files covering core domains:
 
-| File | Description | Max Lines | Purpose |
-|------|-------------|-----------|---------|
-| `automation.knowledge.md` | CI/CD workflows and automation | 250 | Deployment, versioning, release patterns |
-| `cmr.knowledge.md` | CMR CLI reference and commands | 250 | Complete command reference (most detailed) |
-| `deployment.knowledge.md` | Release and environment management | 250 | Versioning, environments, verification |
-| `operating.knowledge.md` | Git operations and workflows | 250 | Git commands, workflow execution, repository context |
-| `planning.knowledge.md` | Task decomposition and milestones | 250 | Execution order, issue analysis, planning |
-| `repository.knowledge.md` | Repository structure and templates | 250 | Structure conventions, naming patterns, metadata |
-| `researching.knowledge.md` | Context discovery and analysis | 250 | Codebase exploration, issue analysis, discovery |
-| `reviewing.knowledge.md` | Validation and quality gates | 250 | Code review, documentation review, context validation |
-| `validating.knowledge.md` | Structure validation and header types | 250 | Header vocabulary, naming rules, structure validation |
+| File                       | Description                           | Max Lines | Purpose                                               |
+| -------------------------- | ------------------------------------- | --------- | ----------------------------------------------------- |
+| `automation.knowledge.md`  | CI/CD workflows and automation        | 250       | Deployment, versioning, release patterns              |
+| `cmr.knowledge.md`         | CMR CLI reference and commands        | 250       | Complete command reference (most detailed)            |
+| `deployment.knowledge.md`  | Release and environment management    | 250       | Versioning, environments, verification                |
+| `operating.knowledge.md`   | Git operations and workflows          | 250       | Git commands, workflow execution, repository context  |
+| `planning.knowledge.md`    | Task decomposition and milestones     | 250       | Execution order, issue analysis, planning             |
+| `repository.knowledge.md`  | Repository structure and templates    | 250       | Structure conventions, naming patterns, metadata      |
+| `researching.knowledge.md` | Context discovery and analysis        | 250       | Codebase exploration, issue analysis, discovery       |
+| `reviewing.knowledge.md`   | Validation and quality gates          | 250       | Code review, documentation review, context validation |
+| `validating.knowledge.md`  | Structure validation and header types | 250       | Header vocabulary, naming rules, structure validation |
 
-**Constraint**: All knowledge files ≤250 lines per file to maintain LLM-first focus. See [:page_facing_up: validating.knowledge.md](knowledge/validating.knowledge.md) for validation rules.
+**Constraint**: All knowledge files ≤250 lines per file to maintain LLM-first focus. See [:page\_facing\_up: validating.knowledge.md](knowledge/validating.knowledge.md) for validation rules.
 
-#### :building_construction: Semantic Header Vocabulary
+#### :building\_construction: Semantic Header Vocabulary
 
 All headers must use emoji prefixes from the standardized vocabulary:
 
-| Emoji | Category | Usage | Examples |
-|-------|----------|-------|----------|
-| `:file_folder:` | Structure | Main heading, file role, directory | "Repository Structure", "Files Directory" |
-| `:book:` | Navigation | Table of contents | Always used for "Table Of Contents" |
-| `:telescope:` | Discovery | Overview/summary | "Overview" sections |
-| `:clipboard:` | Specification | Requirements, checklist | "Requirements", configuration items |
-| `:inbox_tray:` | Input | Installation, setup | "Installation", input workflows |
-| `:keyboard:` | Execution | Usage, commands, workflow | "Usage", step-by-step guides |
-| `:books:` | Reference | Documentation links | Always for "References" section |
-| `:scroll:` | Legal | License, terms, policies | License sections |
-| `:building_construction:` | Architecture | Structure, design, hierarchy | STRUCTURE, ORGANIZATION sections |
-| `:triangular_ruler:` | Technology | Tech stack, tools | "Technologies", implementation details |
-| `:world_map:` | Navigation | Guides, workflows | Multi-step procedures, routing |
-| `:toolbox:` | Tools | Utilities, CLI | CLI references, tool descriptions |
-| `:warning:` | Alert | Warnings, cautions | Important notices, gotchas |
-| `:wrench:` | Configuration | Settings, parameters | Configuration sections |
-| `:compass:` | Direction | Steps, waypoints | Step-by-step guides |
-| `:hammer_and_wrench:` | Remediation | Troubleshooting | Problem-solving, fixes |
-| `:memo:` | Plan | To-Do lists, milestones | Tasks, planned work |
-| `:notebook:` | Documentation | Notes, annotations | Remarks, observations |
-| `:dart:` | Skills | Agent capabilities | Skill references, capabilities |
+| Emoji                     | Category      | Usage                              | Examples                                  |
+| ------------------------- | ------------- | ---------------------------------- | ----------------------------------------- |
+| `:file_folder:`           | Structure     | Main heading, file role, directory | "Repository Structure", "Files Directory" |
+| `:book:`                  | Navigation    | Table of contents                  | Always used for "Table Of Contents"       |
+| `:telescope:`             | Discovery     | Overview/summary                   | "Overview" sections                       |
+| `:clipboard:`             | Specification | Requirements, checklist            | "Requirements", configuration items       |
+| `:inbox_tray:`            | Input         | Installation, setup                | "Installation", input workflows           |
+| `:keyboard:`              | Execution     | Usage, commands, workflow          | "Usage", step-by-step guides              |
+| `:books:`                 | Reference     | Documentation links                | Always for "References" section           |
+| `:scroll:`                | Legal         | License, terms, policies           | License sections                          |
+| `:building_construction:` | Architecture  | Structure, design, hierarchy       | STRUCTURE, ORGANIZATION sections          |
+| `:triangular_ruler:`      | Technology    | Tech stack, tools                  | "Technologies", implementation details    |
+| `:world_map:`             | Navigation    | Guides, workflows                  | Multi-step procedures, routing            |
+| `:toolbox:`               | Tools         | Utilities, CLI                     | CLI references, tool descriptions         |
+| `:warning:`               | Alert         | Warnings, cautions                 | Important notices, gotchas                |
+| `:wrench:`                | Configuration | Settings, parameters               | Configuration sections                    |
+| `:compass:`               | Direction     | Steps, waypoints                   | Step-by-step guides                       |
+| `:hammer_and_wrench:`     | Remediation   | Troubleshooting                    | Problem-solving, fixes                    |
+| `:memo:`                  | Plan          | To-Do lists, milestones            | Tasks, planned work                       |
+| `:notebook:`              | Documentation | Notes, annotations                 | Remarks, observations                     |
+| `:dart:`                  | Skills        | Agent capabilities                 | Skill references, capabilities            |
 
-**Rule**: All typed headers must include emoji. See [:page_facing_up: validating.knowledge.md](knowledge/validating.knowledge.md) for complete typed header list.
+**Rule**: All typed headers must include emoji. See [:page\_facing\_up: validating.knowledge.md](knowledge/validating.knowledge.md) for complete typed header list.
 
-#### :building_construction: Render Tag Mappings
+#### :building\_construction: Render Tag Mappings
 
 Documentation placeholders for LLM-guided content generation:
 
 **Patterns**:
 
-- `<!-- <llm prompt="SectionName" applied> -->
+- \`<!-- <llm prompt="SectionName" applied> -->
 
 Describe the purpose, scope, and expected usage of this part of the repository. Focus on the key context a contributor or reader needs to understand it quickly, including any important constraints, dependencies, and links to related templates, guides, or source files. Keep the content specific, actionable, and limited to information that helps someone navigate or maintain this repository effectively.
 
 <!-- </llm> -->` for README sections such as `Overview` or `Usage`
 
-- `<!-- <llm prompt="Namespace.Section" applied> -->
+- \`<!-- <llm prompt="Namespace.Section" applied> -->
 
 Use `Namespace.Section` for a stable, scoped section name that is easy to read, sort, and reuse across the repository.
 
@@ -242,7 +242,7 @@ ARCHITECTURE.md:
 - Optional shared location: organization-level settings when the same prompt set is reused across multiple templates or repositories
 - Override rule: keep repository-specific overrides minimal and only for genuinely divergent wording or structure
 
-#### :building_construction: CMR Directive Catalog
+#### :building\_construction: CMR Directive Catalog
 
 CMR directives are reserved for generated repository and organization inventories. They should be used only when the content is expected to be refreshed by `cmr docs render`.
 
@@ -281,7 +281,7 @@ org.stats
 - Do not invent new directives in templates without first verifying resolver support in CMR knowledge and implementation.
 - Preserve `;applied` only for rendered output; source templates should keep the unresolved directive form.
 
-#### :building_construction: Layer Separation Rules
+#### :building\_construction: Layer Separation Rules
 
 Documentation organization follows strict layer boundaries to maintain clarity and reusability:
 
@@ -295,26 +295,26 @@ prompts (frontmatter: agent, skills)
 
 **Allowed references**:
 
-| From | To | Via | Allowed |
-|------|-----|------|---------|
-| Knowledge | docs/ | `:books: References` | ✅ YES |
-| Knowledge | sibling knowledge | `:books: References` | ✅ YES |
-| Skill | Knowledge | `:books: References` in SKILL.md | ✅ YES |
-| Agent | Skill | `:dart: Skills` section | ✅ YES |
-| Prompt | Agent | Frontmatter `agent:` | ✅ YES |
-| Prompt | Skill | Content references | ✅ YES |
+| From      | To                | Via                              | Allowed |
+| --------- | ----------------- | -------------------------------- | ------- |
+| Knowledge | docs/             | `:books: References`             | ✅ YES   |
+| Knowledge | sibling knowledge | `:books: References`             | ✅ YES   |
+| Skill     | Knowledge         | `:books: References` in SKILL.md | ✅ YES   |
+| Agent     | Skill             | `:dart: Skills` section          | ✅ YES   |
+| Prompt    | Agent             | Frontmatter `agent:`             | ✅ YES   |
+| Prompt    | Skill             | Content references               | ✅ YES   |
 
 **Forbidden references**:
 
-| From | To | Reason |
-|------|-----|--------|
-| Agent | Agent | No horizontal coupling |
-| Skill | Skill | No horizontal coupling |
-| Prompt | Prompt | No horizontal coupling |
-| Knowledge | Agent | Breaks layer boundary |
-| Docs | Knowledge | One-way flow only |
+| From      | To        | Reason                 |
+| --------- | --------- | ---------------------- |
+| Agent     | Agent     | No horizontal coupling |
+| Skill     | Skill     | No horizontal coupling |
+| Prompt    | Prompt    | No horizontal coupling |
+| Knowledge | Agent     | Breaks layer boundary  |
+| Docs      | Knowledge | One-way flow only      |
 
-#### :building_construction: GitHub Automation Structure
+#### :building\_construction: GitHub Automation Structure
 
 `.github/` reserved for GitHub-specific automation **only**. No documentation content in `.github/docs/` or `.github/`.
 
@@ -330,7 +330,7 @@ prompts (frontmatter: agent, skills)
 
 ## :books: References
 
-- [:page_facing_up: ORGANIZATION.md](ORGANIZATION.md)
-- [:page_facing_up: ../../README.md](../../README.md)
-- [:page_facing_up: knowledge/validating.knowledge.md](knowledge/validating.knowledge.md)
-- [:page_facing_up: knowledge/reviewing.knowledge.md](knowledge/reviewing.knowledge.md)
+- [:page\_facing\_up: ORGANIZATION.md](ORGANIZATION.md)
+- [:page\_facing\_up: ../../README.md](../../README.md)
+- [:page\_facing\_up: knowledge/validating.knowledge.md](knowledge/validating.knowledge.md)
+- [:page\_facing\_up: knowledge/reviewing.knowledge.md](knowledge/reviewing.knowledge.md)

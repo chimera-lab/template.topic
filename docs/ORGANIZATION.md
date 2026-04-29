@@ -1,14 +1,14 @@
-# :file_folder: Organization
+# :file\_folder: Organization
 
 ## :book: Table of Contents
 
-- [:file_folder: Organization](./#file_folder-organization)
+- [:file\_folder: Organization](./#file_folder-organization)
   - [:telescope: Overview](./#telescope-overview)
-  - [:building_construction: Structure](./#building_construction-structure)
-    - [:building_construction: Knowledge & Research](./#building_construction-knowledge-research)
-    - [:building_construction: Implementation](./#building_construction-implementation)
-    - [:building_construction: Templates & Tools](./#building_construction-templates-tools)
-    - [:building_construction: Template Inheritance](./#building_construction-template-inheritance)
+  - [:building\_construction: Structure](./#building_construction-structure)
+    - [:building\_construction: Knowledge & Research](./#building_construction-knowledge-research)
+    - [:building\_construction: Implementation](./#building_construction-implementation)
+    - [:building\_construction: Templates & Tools](./#building_construction-templates-tools)
+    - [:building\_construction: Template Inheritance](./#building_construction-template-inheritance)
   - [:toolbox: Tools](./#toolbox-tools)
     - [:toolbox: `cmr`](./#toolbox-cmr)
   - [:books: References](./#books-references)
@@ -23,7 +23,7 @@ The template set is organized to support topic-oriented documentation that can b
 
 <!-- </llm> -->
 
-## :building_construction: Structure
+## :building\_construction: Structure
 
 ```text
 repository-name.suffix/
@@ -45,23 +45,23 @@ repository-name.suffix/
 
 Repositories are categorized by suffix:
 
-### :building_construction: Knowledge & Research
+### :building\_construction: Knowledge & Research
 
 - **`.topic`** - Knowledge areas, research, documentation collections
 - **`.overview`** - High-level summaries and guides
 
-### :building_construction: Implementation
+### :building\_construction: Implementation
 
 - **`.project`** - Concrete implementations with deliverables
 - **`.app`** - Standalone applications (web, mobile, desktop, CLI)
 - **`.package`** - Reusable libraries/packages
 
-### :building_construction: Templates & Tools
+### :building\_construction: Templates & Tools
 
 - **`.scaffold`** - Project templates and generators
 - **`.template`** - Reusable document/code templates
 
-### :building_construction: Template Inheritance
+### :building\_construction: Template Inheritance
 
 Templates are GitHub repositories that provide reusable structures. Repositories inherit from templates through a hierarchical chain.
 
@@ -112,6 +112,6 @@ The CMR CLI (`cmr`) automates <!-- <var key="org.name" applied> -->chimera-lab<!
 
 ## :books: References
 
-- [:page_facing_up: STRUCTURE.md](STRUCTURE.md)
-- [:page_facing_up: ../../README.md](../../README.md)
-- [:page_facing_up: knowledge/cmr.knowledge.md](knowledge/cmr.knowledge.md)
+- [:page\_facing\_up: STRUCTURE.md](STRUCTURE.md)
+- [:page\_facing\_up: ../../README.md](../../README.md)
+- [:page\_facing\_up: knowledge/cmr.knowledge.md](knowledge/cmr.knowledge.md)
