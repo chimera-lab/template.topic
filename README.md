@@ -1,13 +1,13 @@
-# :file_folder: <!-- <var key="repository.name"> --><!-- </var> -->
+# :file\_folder: <!-- <var key="repository.name"> --><!-- </var> -->
 
 Repository template providing the standard structure, docs, and contribution workflow for <!-- <var key="org.name" applied> -->chimera-lab<!-- </var> --> projects.
 
 ## :book: Table of Contents
 
-- [:file_folder: <!-- <var key="repository.name"> --><!-- </var> -->](./#file_folder-var-keyrepositoryname-var)
+- [:file\_folder: <!-- <var key="repository.name"> --><!-- </var> -->](./#file_folder-var-keyrepositoryname-var)
   - [:telescope: Overview](./#telescope-overview)
   - [:clipboard: Requirements](./#clipboard-requirements)
-  - [:inbox_tray: Installation](./#inbox_tray-installation)
+  - [:inbox\_tray: Installation](./#inbox_tray-installation)
   - [:keyboard: Usage](./#keyboard-usage)
   - [:books: References](./#books-references)
   - [:scroll: License](./#scroll-license)
@@ -33,7 +33,7 @@ The repository is intended to standardize how documentation is organized across 
 
 <!-- </llm> -->
 
-## :inbox_tray: Installation
+## :inbox\_tray: Installation
 
 <!-- <llm prompt="Installation" applied> -->
 
@@ -85,18 +85,19 @@ Use the templates as a structured starting point, not as final content. Tailor t
 
 ## :books: References
 
-- [:page_facing_up: CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-- [:page_facing_up: CONTRIBUTING.md](CONTRIBUTING.md)
-- [:page_facing_up: SECURITY.md](SECURITY.md)
-- [:page_facing_up: ./docs/STRUCTURE.md](./docs/STRUCTURE.md) - Project Structure
-- [:page_facing_up: ./docs/ORGANIZATION.md](./docs/ORGANIZATION.md) - Managing entity
+- [:page\_facing\_up: CODE\_OF\_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [:page\_facing\_up: CONTRIBUTING.md](CONTRIBUTING.md)
+- [:page\_facing\_up: SECURITY.md](SECURITY.md)
+- [:page\_facing\_up: ./docs/STRUCTURE.md](./docs/STRUCTURE.md) - Project Structure
+- [:page\_facing\_up: ./docs/ORGANIZATION.md](./docs/ORGANIZATION.md) - Managing entity
 
 ## :scroll: License
 
 - Licensed under the terms specified in [:link: LICENSE](LICENSE). Review before distributing or reusing this template.
 
-<!-- <llm prompt="tags:topic.template" applied> -->
+<!-- <cmr cmd="repo.tags[name=topic.template]" applied> -->
 
 - template
 - topic
-<!-- </llm> -->
+
+<!-- </cmr> -->
