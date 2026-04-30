@@ -31,10 +31,24 @@
 
 ### :inbox\_tray: Clone the repository
 
+<!-- <code lang="bash"> -->
+
+<!-- <data name="REPO_REMOTE"> -->
+<!-- <var key="repo.remote"> -->
+<!-- </var> -->
+<!-- </data name="REPO_REMOTE"> -->
+
+<!-- <data name="REPO_NAME"> -->
+<!-- <var key="repo.name"> -->
+<!-- </var> -->
+<!-- </data name="REPO_NAME"> -->
+
 ```bash
-git clone <!-- <var key="repo.remote" applied> -->git@github.com:chimera-lab/template.topic.git<!-- </var> -->
-cd <!-- <var key="repository.name"> --><!-- </var> -->
+git clone $REPO_REMOTE
+cd $REPO_NAME
 ```
+
+<!-- </code> -->
 
 ### :inbox\_tray: Create development environment
 
