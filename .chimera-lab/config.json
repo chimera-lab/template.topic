@@ -1,31 +1,3 @@
 {
-  "patterns": {
-    "doc_patterns": [
-      "*.md",
-      "docs/*.md",
-      "CHANGELOG.md",
-      "README.md",
-      "LICENSE",
-      "CODE_OF_CONDUCT.md",
-      "CONTRIBUTING.md",
-      "SECURITY.md"
-    ],
-    "github_patterns": [
-      ".github/**/*"
-    ],
-    "agent_patterns": [
-      "**/*.agent.md"
-    ],
-    "prompt_patterns": [
-      "**/*.prompt.md"
-    ],
-    "knowledge_patterns": [
-      "**/*.knowledge.md"
-    ],
-    "docs_default_pattern": "**/*.md"
-  },
-  "version": "1.0.0",
-  "updated_at": "2026-02-17T06:11:01.493335+00:00",
-  "repo_name": "template.topic",
-  "github_repo": "chimera-lab/template.topic"
+  "version": "1.0.0"
 }
