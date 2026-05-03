@@ -88,16 +88,9 @@ Use the templates as a structured starting point, not as final content. Tailor t
 - [:page\_facing\_up: CODE\_OF\_CONDUCT.md](CODE_OF_CONDUCT.md)
 - [:page\_facing\_up: CONTRIBUTING.md](CONTRIBUTING.md)
 - [:page\_facing\_up: SECURITY.md](SECURITY.md)
-- [:page\_facing\_up: ./docs/STRUCTURE.md](./docs/STRUCTURE.md) - Project Structure
-- [:page\_facing\_up: ./docs/ORGANIZATION.md](./docs/ORGANIZATION.md) - Managing entity
+- [:page\_facing\_up: ./docs/STRUCTURE.md](./docs/STRUCTURE.md)
+- [:page\_facing\_up: ./docs/ORGANIZATION.md](./docs/ORGANIZATION.md)
 
 ## :scroll: License
 
 - Licensed under the terms specified in [:link: LICENSE](LICENSE). Review before distributing or reusing this template.
-
-<!-- <cmr cmd="repo.tags[name=topic.template]" applied> -->
-
-- template
-- topic
-
-<!-- </cmr> -->
