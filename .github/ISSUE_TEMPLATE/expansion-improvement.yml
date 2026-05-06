@@ -1,0 +1,49 @@
+name: Expansion / Improvement
+description: Propose improvements or coverage expansion for topic/index
+  structure and content
+labels:
+  - type:feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### :compass: Proposal Summary
+        Describe what should be expanded or improved in this topic/index repository.
+  - type: textarea
+    id: gap
+    attributes:
+      label: Current Gap
+      description: What is missing, unclear, or insufficient today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Expansion / Improvement
+      description: Describe the structure, files, or sections to add/refine
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected Impact
+      description: Who benefits and what gets better?
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: Select the main scope of the proposal
+      options:
+        - index/navigation improvements
+        - content coverage expansion
+        - template structure improvements
+        - process or contribution workflow
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References & Related Work
+      description: Link related issues, docs, standards, or examples

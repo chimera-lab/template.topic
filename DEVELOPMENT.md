@@ -35,13 +35,13 @@
 
 <!-- <data name="REPO_REMOTE"> -->
 
-<!-- <var key="repo.remote" applied> -->git@github.com:chimera-lab/template.topic.git<!-- </var> -->
+<!-- <var key="repo.remote"> --><!-- </var> -->
 
 <!-- </data name="REPO_REMOTE"> -->
 
 <!-- <data name="REPO_NAME"> -->
 
-<!-- <var key="repo.name" applied> -->template.topic<!-- </var> -->
+<!-- <var key="repo.name"> --><!-- </var> -->
 
 <!-- </data name="REPO_NAME"> -->
 

@@ -25,7 +25,6 @@
 
 ## :books: References
 
-- [:page_facing_up: knowledge/planning.knowledge.md](knowledge/planning.knowledge.md)
 - [:page_facing_up: ../CHANGELOG.md](../CHANGELOG.md)
 - [:page_facing_up: ../CONTRIBUTING.md](../CONTRIBUTING.md)
 - [:page_facing_up: ../README.md](../README.md)

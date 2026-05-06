@@ -1,0 +1,49 @@
+name: Typo Report
+description: Report typos, wording issues, broken links, or formatting mistakes
+  in topic/index content
+labels:
+  - type:documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### :pencil2: Typo Summary
+        Use this form for small text-level fixes in topic/index documentation.
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: File path and heading/section where the issue appears
+      placeholder: docs/README.md > Overview
+    validations:
+      required: true
+  - type: textarea
+    id: current-text
+    attributes:
+      label: Current Text
+      description: Paste the exact current text
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-text
+    attributes:
+      label: Suggested Text
+      description: Provide the corrected wording
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: Where should this correction be applied?
+      options:
+        - topic index only
+        - this topic and derived templates
+        - unsure
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Related References
+      description: Optional links to issues, PRs, or source material

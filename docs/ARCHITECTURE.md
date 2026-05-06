@@ -47,5 +47,3 @@
 - [:page_facing_up: STRUCTURE.md](STRUCTURE.md)
 - [:page_facing_up: ORGANIZATION.md](ORGANIZATION.md)
 - [:page_facing_up: ROADMAP.md](ROADMAP.md)
-- [:page_facing_up: knowledge/repository.knowledge.md](knowledge/repository.knowledge.md)
-- [:page_facing_up: knowledge/validating.knowledge.md](knowledge/validating.knowledge.md)

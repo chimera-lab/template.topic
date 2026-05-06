@@ -55,5 +55,4 @@ All root governance files (`LICENSE`, `CHANGELOG.md`, `CONTRIBUTING.md`, `CODE_O
 ## :books: References
 
 - Parent template: [:page_facing_up: repository.template](https://github.com/chimera-lab/repository.template)
-- [:page_facing_up: AGENTS.md](AGENTS.md) - Agent orchestration model
 - [:page_facing_up: docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) - Architectural overview
