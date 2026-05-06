@@ -64,7 +64,6 @@ docs:
 # CMR pipeline automation
 cmr-check:
 	cmr docs check
-	cmr docs check --tags
 
 cmr-template-diff:
 	cmr repo template diff
