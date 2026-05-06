@@ -232,7 +232,11 @@ cmr org tree # Tree hierarchy
 cmr docs list -c agents     # List agents
 cmr docs validate           # Validate all
 cmr docs validate README.md # Validate file
-cmr docs fix --dry-run      # Preview fixes
+cmr docs render             # Dry-run: preview rendered output (default)
+cmr docs render --apply     # Write resolved directives to files
+cmr docs render --output    # Print rendered output to stdout
+cmr docs fix                # Preview fixes (dry-run default)
+cmr docs fix --apply        # Apply fixes to files
 ```
 
 ### :compass: Step: GitHub resources

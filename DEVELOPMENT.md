@@ -1,148 +1,146 @@
-# :file\_folder: Development Environment Setup
+# :file_folder: Development Environment Setup
 
 ## :book: Table of Contents
 
-- [:file\_folder: Development Environment Setup](./#file_folder-development-environment-setup)
+- [:file_folder: Development Environment Setup](./#file_folder-development-environment-setup)
   - [:clipboard: Requirements](./#clipboard-requirements)
-  - [:inbox\_tray: Installation](./#inbox_tray-installation)
-    - [:inbox\_tray: Clone the repository](./#inbox_tray-clone-the-repository)
-    - [:inbox\_tray: Create development environment](./#inbox_tray-create-development-environment)
-    - [:inbox\_tray: Install dependencies](./#inbox_tray-install-dependencies)
-    - [:inbox\_tray: Install pre-commit hooks (optional but recommended)](./#inbox_tray-install-pre-commit-hooks-optional-but-recommended)
+  - [:inbox_tray: Installation](./#inbox_tray-installation)
+    - [:inbox_tray: Clone the repository](./#inbox_tray-clone-the-repository)
+    - [:inbox_tray: Create development environment](./#inbox_tray-create-development-environment)
+    - [:inbox_tray: Install dependencies](./#inbox_tray-install-dependencies)
+    - [:inbox_tray: Install pre-commit hooks (optional but recommended)](./#inbox_tray-install-pre-commit-hooks-optional-but-recommended)
   - [:keyboard: Usage](./#keyboard-usage)
   - [:toolbox: Tools](./#toolbox-tools)
     - [:toolbox: Running Tests](./#toolbox-running-tests)
     - [:toolbox: Code Quality](./#toolbox-code-quality)
+    - [:toolbox: CMR Pipeline](./#toolbox-cmr-pipeline)
     - [:toolbox: Pre-commit Hooks](./#toolbox-pre-commit-hooks)
   - [:wrench: Configuration](./#wrench-configuration)
-  - [:control\_knobs: Customization](./#control_knobs-customization)
-  - [:hammer\_and\_wrench: Common Problems](./#hammer_and_wrench-common-problems)
-    - [:hammer\_and\_wrench: Dependency errors](./#hammer_and_wrench-dependency-errors)
-    - [:hammer\_and\_wrench: Pre-commit failures](./#hammer_and_wrench-pre-commit-failures)
-    - [:hammer\_and\_wrench: Test failures](./#hammer_and_wrench-test-failures)
+  - [:control_knobs: Customization](./#control_knobs-customization)
+  - [:hammer_and_wrench: Common Problems](./#hammer_and_wrench-common-problems)
 
 ## :clipboard: Requirements
 
-- Git installed
-- Your project's runtime environment (Node.js, Python, Go, etc.)
-- VS Code (recommended) or your preferred editor
+<!-- <llm prompt="Development.Requirements"> -->
 
-## :inbox\_tray: Installation
+`directive: <llm prompt="Development.Requirements">`
 
-### :inbox\_tray: Clone the repository
+<!-- </llm> -->
+
+## :inbox_tray: Installation
+
+### :inbox_tray: Clone the repository
 
 <!-- <code lang="bash"> -->
 
 <!-- <data name="REPO_REMOTE"> -->
-<!-- <var key="repo.remote"> -->
-<!-- </var> -->
+
+<!-- <var key="repo.remote" applied> -->git@github.com:chimera-lab/template.topic.git<!-- </var> -->
+
 <!-- </data name="REPO_REMOTE"> -->
 
 <!-- <data name="REPO_NAME"> -->
-<!-- <var key="repo.name"> -->
-<!-- </var> -->
+
+<!-- <var key="repo.name" applied> -->template.topic<!-- </var> -->
+
 <!-- </data name="REPO_NAME"> -->
 
 ```bash
+REPO_REMOTE=git@github.com:chimera-lab/repository.template.git
+REPO_NAME=repository.template
+
 git clone $REPO_REMOTE
 cd $REPO_NAME
 ```
 
 <!-- </code> -->
 
-### :inbox\_tray: Create development environment
+### :inbox_tray: Create development environment
 
-```bash
-```
+<!-- <llm prompt="Development.Installation"> -->
 
-### :inbox\_tray: Install dependencies
+`directive: <llm prompt="Development.Installation">`
 
-```bash
-# Use the appropriate command for your project type
-make install
-```
+<!-- </llm> -->
 
-### :inbox\_tray: Install pre-commit hooks (optional but recommended)
+### :inbox_tray: Install dependencies
 
-```bash
-pre-commit install
-```
+<!-- <llm prompt="Development.InstallDependencies"> -->
+
+`directive: <llm prompt="Development.InstallDependencies">`
+
+<!-- </llm> -->
+
+### :inbox_tray: Install pre-commit hooks (optional but recommended)
+
+<!-- <llm prompt="Development.PreCommitHooks"> -->
+
+`directive: <llm prompt="Development.PreCommitHooks">`
+
+<!-- </llm> -->
 
 ## :keyboard: Usage
 
-Use Make (recommended) for common development tasks:
+<!-- <llm prompt="Development.Usage"> -->
 
-```bash
-# Install dependencies
-make install
+`directive: <llm prompt="Development.Usage">`
 
-# Run tests
-make test
-
-# Run linting
-make lint
-
-# Format code
-make format
-
-# Run all checks
-make check
-
-# Clean build artifacts
-make clean
-
-# Set up development environment
-make setup
-```
+<!-- </llm> -->
 
 ## :toolbox: Tools
 
 ### :toolbox: Running Tests
 
-```bash
-```
+<!-- <llm prompt="Development.Tests"> -->
+
+`directive: <llm prompt="Development.Tests">`
+
+<!-- </llm> -->
 
 ### :toolbox: Code Quality
 
-```bash
-```
+<!-- <llm prompt="Development.CodeQuality"> -->
+
+`directive: <llm prompt="Development.CodeQuality">`
+
+<!-- </llm> -->
+
+### :toolbox: CMR Pipeline
+
+<!-- <llm prompt="Development.CmrPipeline"> -->
+
+`directive: <llm prompt="Development.CmrPipeline">`
+
+<!-- </llm> -->
 
 ### :toolbox: Pre-commit Hooks
 
-Pre-commit hooks automatically run checks before commits:
+<!-- <llm prompt="Development.PreCommitTools"> -->
 
-```bash
-# Install hooks
-pre-commit install
+`directive: <llm prompt="Development.PreCommitTools">`
 
-# Run manually
-pre-commit run --all-files
-```
+<!-- </llm> -->
 
 ## :wrench: Configuration
 
-If using VS Code, the workspace is pre-configured with:
+<!-- <llm prompt="Development.Configuration"> -->
 
-- **Recommended extensions** (will prompt to install)
-- **Editor settings** (formatting, linting)
-- **Debug configurations** for your project type
-- **Task definitions** for common operations
+`directive: <llm prompt="Development.Configuration">`
 
-## :control\_knobs: Customization
+<!-- </llm> -->
 
-```bash
-```
+## :control_knobs: Customization
 
-## :hammer\_and\_wrench: Common Problems
+<!-- <llm prompt="Development.Customization"> -->
 
-### :hammer\_and\_wrench: Dependency errors
+`directive: <llm prompt="Development.Customization">`
 
-Ensure you've installed all required dependencies
+<!-- </llm> -->
 
-### :hammer\_and\_wrench: Pre-commit failures
+## :hammer_and_wrench: Common Problems
 
-Run `pre-commit run --all-files` to fix
+<!-- <llm prompt="Development.CommonProblems"> -->
 
-### :hammer\_and\_wrench: Test failures
+`directive: <llm prompt="Development.CommonProblems">`
 
-Check that all dependencies are correctly installed
+<!-- </llm> -->

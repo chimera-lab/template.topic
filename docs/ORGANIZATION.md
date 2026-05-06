@@ -1,117 +1,39 @@
-# :file\_folder: Organization
+# :file_folder: Organization
 
 ## :book: Table of Contents
 
-- [:file\_folder: Organization](./#file_folder-organization)
+- [:file_folder: Organization](./#file_folder-organization)
   - [:telescope: Overview](./#telescope-overview)
-  - [:building\_construction: Structure](./#building_construction-structure)
-    - [:building\_construction: Knowledge & Research](./#building_construction-knowledge-research)
-    - [:building\_construction: Implementation](./#building_construction-implementation)
-    - [:building\_construction: Templates & Tools](./#building_construction-templates-tools)
-    - [:building\_construction: Template Inheritance](./#building_construction-template-inheritance)
+  - [:building_construction: Structure](./#building_construction-structure)
   - [:toolbox: Tools](./#toolbox-tools)
-    - [:toolbox: `cmr`](./#toolbox-cmr)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview
 
-<!-- <llm prompt="Organization.Overview" applied> -->
+<!-- <llm prompt="Organization.Overview"> -->
 
-This repository provides the documentation templates used to describe software work consistently across the organization. It defines reusable structures for organizations, repositories, projects, packages, applications, scaffolds, and related topics so teams can publish documentation with a shared layout, vocabulary, and level of detail.
-
-The template set is organized to support topic-oriented documentation that can be adapted across different kinds of software assets while preserving a coherent information architecture. Its purpose is to reduce duplication, improve maintainability, and keep documentation aligned as systems evolve.
+`directive: <llm prompt="Organization.Overview">`
 
 <!-- </llm> -->
 
-## :building\_construction: Structure
+## :building_construction: Structure
 
-```text
-repository-name.suffix/
-├── .chimera-lab/           # Repository metadata
-│   ├── meta.json           # Description, tags, template
-│   └── settings.json       # Configuration
-├── .github/                # GitHub workflows
-│   ├── agents/             # AI agent definitions
-│   └── prompts/            # Prompt templates
-├── docs/                   # Documentation and knowledge
-│   └── knowledge/          # Knowledge base
-├── README.md               # Main documentation
-├── CHANGELOG.md            # Version history
-├── CONTRIBUTING.md         # Contribution guidelines
-├── CODE_OF_CONDUCT.md      # Community guidelines
-├── SECURITY.md             # Security policy
-└── LICENSE                 # License terms
-```
+<!-- <llm prompt="Organization.Structure"> -->
 
-Repositories are categorized by suffix:
+`directive: <llm prompt="Organization.Structure">`
 
-### :building\_construction: Knowledge & Research
-
-- **`.topic`** - Knowledge areas, research, documentation collections
-- **`.overview`** - High-level summaries and guides
-
-### :building\_construction: Implementation
-
-- **`.project`** - Concrete implementations with deliverables
-- **`.app`** - Standalone applications (web, mobile, desktop, CLI)
-- **`.package`** - Reusable libraries/packages
-
-### :building\_construction: Templates & Tools
-
-- **`.scaffold`** - Project templates and generators
-- **`.template`** - Reusable document/code templates
-
-### :building\_construction: Template Inheritance
-
-Templates are GitHub repositories that provide reusable structures. Repositories inherit from templates through a hierarchical chain.
-
-**Template Hierarchy**:
-
-```text
-repository.template (base)
-├── topic.template
-├── overview.template
-├── diy.template
-├── app.template
-│   └── laravel_app.template
-├── project.template
-├── scaffold.template
-│   └── docker_scaffold.template
-└── org.template
-```
-
-**How Templates Work**:
-
-1. **Template Selection**: Repositories specify their template in `.chimera-lab/meta.json`
-2. **Template Storage**: Template added as Git submodule at `.github/.template`
-3. **Inheritance Chain**: Templates inherit from parent templates
-   - Example: `laravel_app.template` → `app.template` → `repository.template`
-4. **Updates**: Changes propagate down the hierarchy
-   - Modify at the highest level that needs the change
-   - Use `cmr repo template update` to sync with latest version
-
-**Example Configuration** (`.chimera-lab/meta.json`):
-
-```json
-{
-  "repo": {
-    "template": "app.template"
-  },
-  "remote_template": {
-    "repo": "<!-- <var key="org.name" applied> -->chimera-lab<!-- </var> -->/app.template",
-    "branch": "main"
-  }
-}
-```
+<!-- </llm> -->
 
 ## :toolbox: Tools
 
-### :toolbox: `cmr`
+<!-- <llm prompt="Organization.Tools"> -->
 
-The CMR CLI (`cmr`) automates <!-- <var key="org.name" applied> -->chimera-lab<!-- </var> --> repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+`directive: <llm prompt="Organization.Tools">`
+
+<!-- </llm> -->
 
 ## :books: References
 
-- [:page\_facing\_up: STRUCTURE.md](STRUCTURE.md)
-- [:page\_facing\_up: ../../README.md](../../README.md)
-- [:page\_facing\_up: knowledge/cmr.knowledge.md](knowledge/cmr.knowledge.md)
+- [:page_facing_up: STRUCTURE.md](STRUCTURE.md)
+- [:page_facing_up: ../../README.md](../../README.md)
+- [:page_facing_up: knowledge/cmr.knowledge.md](knowledge/cmr.knowledge.md)

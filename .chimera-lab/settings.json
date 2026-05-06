@@ -1,0 +1,44 @@
+{
+  "patterns": {
+    "doc_patterns": [
+      "*.md",
+      "docs/*.md",
+      "CHANGELOG.md",
+      "README.md",
+      "LICENSE",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "SECURITY.md"
+    ],
+    "github_patterns": [
+      ".github/**/*"
+    ],
+    "agent_patterns": [
+      "**/*.agent.md"
+    ],
+    "prompt_patterns": [
+      "**/*.prompt.md"
+    ],
+    "knowledge_patterns": [
+      "**/*.knowledge.md"
+    ],
+    "docs_default_pattern": "**/*.md"
+  },
+  "llm": {
+    "headerPrompts": {
+      "Overview": "write a concise overview of this topic repository describing its knowledge area, scope, and role within the organization",
+      "Material": "list the material needed for this topic, including hardware, tools, supplies, or any physical resources required",
+      "Terminology": "define the key terms and concepts relevant to this topic",
+      "Structure.Overview": "describe the repository structure, key directories, and how topic documentation and knowledge are organized",
+      "Organization.Overview": "describe how this topic repository is organized, including subject hierarchy and ownership context",
+      "Roadmap.Overview": "summarize the roadmap, expansion phases, and publication progression planned for this topic repository",
+      "Architecture.Overview": "write a concise architecture overview describing the structural boundaries and documentation design of this topic repository",
+      "Architecture.Structure": "describe the structural layers, main directories, and responsibilities within this topic repository",
+      "Architecture.Technologies": "list and describe the key technologies and tooling used to maintain this topic repository"
+    }
+  },
+  "version": 1,
+  "updated_at": "2026-02-17T04:11:19.284289+00:00",
+  "repo_name": "topic.template",
+  "github_repo": "chimera-lab/topic.template"
+}

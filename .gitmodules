@@ -1,42 +1,6 @@
-[submodule "overview.template"]
-	path = overview.template
-	url = git@github.com:chimera-lab/overview.template.git
-[submodule "topic.template"]
-	path = topic.template
-	url = git@github.com:chimera-lab/topic.template.git
-[submodule "diy.template"]
-	path = diy.template
-	url = git@github.com:chimera-lab/diy.template.git
-[submodule "repository.template"]
-	path = repository.template
-	url = git@github.com:chimera-lab/repository.template.git
-[submodule "scaffold.template"]
-	path = scaffold.template
-	url = git@github.com:chimera-lab/scaffold.template.git
-[submodule "project.template"]
-	path = project.template
-	url = git@github.com:chimera-lab/project.template.git
-[submodule "app.template"]
-	path = app.template
-	url = git@github.com:chimera-lab/app.template.git
-[submodule "docker_scaffold.template"]
-	path = docker_scaffold.template
-	url = git@github.com:chimera-lab/docker_scaffold.template.git
-[submodule "laravel_app.template"]
-	path = laravel_app.template
-	url = git@github.com:chimera-lab/laravel_app.template.git
-[submodule "org.template"]
-	path = org.template
-	url = git@github.com:chimera-lab/org.template.git
-[submodule "laravel_docker_scaffold.template"]
-	path = laravel_docker_scaffold.template
-	url = git@github.com:chimera-lab/laravel_docker_scaffold.template.git
-[submodule "typescript_app.template"]
-	path = typescript_app.template
-	url = git@github.com:chimera-lab/typescript_app.template.git
-[submodule "package.template"]
-	path = package.template
-	url = git@github.com:chimera-lab/package.template.git
 [submodule ".chimera-lab/.template"]
 	path = .chimera-lab/.template
-	url = git@github.com:chimera-lab/topic.template.git
+	url = git@github.com:chimera-lab/repository.template.git
+[submodule ".chimera-lab/.chimera-lab/.template"]
+	path = .chimera-lab/.chimera-lab/.template
+	url = git@github.com:chimera-lab/repository.template.git

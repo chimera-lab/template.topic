@@ -1,10 +1,10 @@
-# :busts\_in\_silhouette: Contributing
+# :busts_in_silhouette: Contributing
 
-This guide explains how to prepare your environment, configure <!-- <var key="repository.name"> --><!-- </var> -->, and contribute changes consistently.
+This guide explains how to prepare your environment, configure <!-- <var key="repo.name" applied> -->template.topic<!-- </var> -->, and contribute changes consistently.
 
 ## :book: Table of Contents
 
-- [:busts\_in\_silhouette: Contributing](./#busts_in_silhouette-contributing)
+- [:busts_in_silhouette: Contributing](./#busts_in_silhouette-contributing)
   - [:telescope: Overview](./#telescope-overview)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:wrench: Configuration](./#wrench-configuration)
@@ -22,7 +22,7 @@ We keep contributions simple: satisfy prerequisites, configure the project, then
 
 ## :wrench: Configuration
 
-1. Clone <!-- <var key="repository.name"> --><!-- </var> --> and install dependencies per the project README.
+1. Clone <!-- <var key="repo.name" applied> -->template.topic<!-- </var> --> and install dependencies per the project README.
 2. Set any required environment variables or secret files locally (do not commit secrets).
 3. Run lint and test commands once to ensure the base setup passes.
 
