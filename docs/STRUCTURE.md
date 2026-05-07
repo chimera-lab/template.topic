@@ -65,9 +65,9 @@ This separation keeps repository automation declarative and discoverable. Operat
 <!-- <llm prompt="Structure.References" applied> -->
 
 - [:page_facing_up: ../../README.md](../../README.md) - Repository entry point and high-level context.
-- [:page_facing_up: ../ARCHITECTURE.md](../ARCHITECTURE.md) - Architectural view of the repository and its components.
-- [:page_facing_up: ../ORGANIZATION.md](../ORGANIZATION.md) - How repository content is grouped and managed.
-- [:page_facing_up: ../ROADMAP.md](../ROADMAP.md) - Planned maintenance and future improvements.
+- [:page_facing_up: ./ARCHITECTURE.md](./ARCHITECTURE.md) - Architectural view of the repository and its components.
+- [:page_facing_up: ./ORGANIZATION.md](./ORGANIZATION.md) - How repository content is grouped and managed.
+- [:page_facing_up: ./ROADMAP.md](./ROADMAP.md) - Planned maintenance and future improvements.
 - [:page_facing_up: ../../DEVELOPMENT.md](../../DEVELOPMENT.md) - Local setup, tooling, and validation workflow.
 
 <!-- </llm> -->
