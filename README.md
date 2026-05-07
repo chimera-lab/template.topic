@@ -1,95 +1,34 @@
-# :file_folder: <!-- <var key="repo.name" applied> -->template.topic<!-- </var> -->
+# :file_folder: <!-- <var key="repo.name"> --><!-- </var> -->
 
-<!-- <badges name="brand" applied> -->
+<!-- <badges name="brand"> -->
 
-[![chimera-lab Experimenting...](https://img.shields.io/badge/chimera--lab-Experimenting...-6e40c9?style=flat-square)](https://github.com/chimera-lab)
+`directive: <badges name="brand">`
 
 <!-- </badges> -->
 
-<!-- <badges name="license,last-commit,issues,stars" layout="inline" applied> -->
+<!-- <badges name="license,last-commit,issues,stars" layout="inline"> -->
 
-[![License](https://img.shields.io/github/license/chimera-lab/template.topic?style=flat-square)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/template.topic?style=flat-square)](https://github.com/chimera-lab/template.topic/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/template.topic?style=flat-square)](https://github.com/chimera-lab/template.topic/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/template.topic?style=flat-square)](https://github.com/chimera-lab/template.topic/stargazers)
+`directive: <badges name="license,last-commit,issues,stars" layout="inline">`
 
 <!-- </badges> -->
 
 ## :book: Table of Contents
 
-- [:file_folder: <!-- <var key="repo.name" applied> -->template.topic<!-- </var> -->](./#file_folder-var-keyreponame-applied-templatetopic-var)
+- [:file_folder: <!-- <var key="repo.name"> --><!-- </var> -->](./#file_folder-var-keyreponame-var)
   - [:card_file_box: Submodules](./#card_file_box-submodules)
-    - [:card_file_box: app.template](./#card_file_box-apptemplateapptemplate)
-    - [:card_file_box: diy.template](./#card_file_box-diytemplatediytemplate)
-    - [:card_file_box: docker\_scaffold.template](./#card_file_box-docker-scaffoldtemplatedocker-scaffoldtemplate)
-    - [:card_file_box: laravel\_app.template](./#card_file_box-laravel-apptemplatelaravel-apptemplate)
-    - [:card_file_box: laravel\_docker\_scaffold.template](./#card_file_box-laravel-docker-scaffoldtemplatelaravel-docker-scaffoldtemplate)
-    - [:card_file_box: org.template](./#card_file_box-orgtemplateorgtemplate)
-    - [:card_file_box: overview.template](./#card_file_box-overviewtemplateoverviewtemplate)
-    - [:card_file_box: package.template](./#card_file_box-packagetemplatepackagetemplate)
-    - [:card_file_box: project.template](./#card_file_box-projecttemplateprojecttemplate)
-    - [:card_file_box: repository.template](./#card_file_box-repositorytemplaterepositorytemplate)
-    - [:card_file_box: scaffold.template](./#card_file_box-scaffoldtemplatescaffoldtemplate)
-    - [:card_file_box: topic.template](./#card_file_box-topictemplatetopictemplate)
-    - [:card_file_box: typescript\_app.template](./#card_file_box-typescript-apptemplatetypescript-apptemplate)
 
 ## :card_file_box: Submodules
 
-<!-- <card header="submodules.items.*.name" link="submodules.items.*.url" context="submodules.items.*.description" repo="submodules.items.*.github_slug" badges="license,last-commit,issues,stars" layout="header|link,badges,context" applied> -->
+<!-- <card header="submodules.items.*.name" link="submodules.items.*.url" context="submodules.items.*.description" repo="submodules.items.*.github_slug" badges="license,last-commit,issues,stars" layout="header|link,badges,context"> -->
 
 <!-- <data name="submodules"> -->
 
-<!-- <cmr cmd="submodule.list[output=json,fragment=README.md#overview]" applied> --><!-- </cmr> -->
+<!-- <cmr cmd="submodule.list[output=json,fragment=README.md#overview]"> -->
+
+`directive: <cmr cmd="submodule.list[output=json,fragment=README.md#overview]">`
+
+<!-- </cmr> -->
 
 <!-- </data> -->
-
-### :card_file_box: [app.template](./app.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/app.template?style=flat-square)](https://github.com/chimera-lab/app.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/app.template?style=flat-square)](https://github.com/chimera-lab/app.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/app.template?style=flat-square)](https://github.com/chimera-lab/app.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/app.template?style=flat-square)](https://github.com/chimera-lab/app.template/stargazers)
-
-### :card_file_box: [diy.template](./diy.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/diy.template?style=flat-square)](https://github.com/chimera-lab/diy.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/diy.template?style=flat-square)](https://github.com/chimera-lab/diy.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/diy.template?style=flat-square)](https://github.com/chimera-lab/diy.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/diy.template?style=flat-square)](https://github.com/chimera-lab/diy.template/stargazers)
-
-### :card_file_box: [docker\_scaffold.template](./docker_scaffold.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/docker_scaffold.template?style=flat-square)](https://github.com/chimera-lab/docker_scaffold.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/docker_scaffold.template?style=flat-square)](https://github.com/chimera-lab/docker_scaffold.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/docker_scaffold.template?style=flat-square)](https://github.com/chimera-lab/docker_scaffold.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/docker_scaffold.template?style=flat-square)](https://github.com/chimera-lab/docker_scaffold.template/stargazers)
-
-### :card_file_box: [laravel\_app.template](./laravel_app.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/laravel_app.template?style=flat-square)](https://github.com/chimera-lab/laravel_app.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/laravel_app.template?style=flat-square)](https://github.com/chimera-lab/laravel_app.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/laravel_app.template?style=flat-square)](https://github.com/chimera-lab/laravel_app.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/laravel_app.template?style=flat-square)](https://github.com/chimera-lab/laravel_app.template/stargazers)
-
-### :card_file_box: [laravel\_docker\_scaffold.template](./laravel_docker_scaffold.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/laravel_docker_scaffold.template?style=flat-square)](https://github.com/chimera-lab/laravel_docker_scaffold.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/laravel_docker_scaffold.template?style=flat-square)](https://github.com/chimera-lab/laravel_docker_scaffold.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/laravel_docker_scaffold.template?style=flat-square)](https://github.com/chimera-lab/laravel_docker_scaffold.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/laravel_docker_scaffold.template?style=flat-square)](https://github.com/chimera-lab/laravel_docker_scaffold.template/stargazers)
-
-### :card_file_box: [org.template](./org.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/org.template?style=flat-square)](https://github.com/chimera-lab/org.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/org.template?style=flat-square)](https://github.com/chimera-lab/org.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/org.template?style=flat-square)](https://github.com/chimera-lab/org.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/org.template?style=flat-square)](https://github.com/chimera-lab/org.template/stargazers)
-
-### :card_file_box: [overview.template](./overview.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/overview.template?style=flat-square)](https://github.com/chimera-lab/overview.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/overview.template?style=flat-square)](https://github.com/chimera-lab/overview.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/overview.template?style=flat-square)](https://github.com/chimera-lab/overview.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/overview.template?style=flat-square)](https://github.com/chimera-lab/overview.template/stargazers)
-
-### :card_file_box: [package.template](./package.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/package.template?style=flat-square)](https://github.com/chimera-lab/package.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/package.template?style=flat-square)](https://github.com/chimera-lab/package.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/package.template?style=flat-square)](https://github.com/chimera-lab/package.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/package.template?style=flat-square)](https://github.com/chimera-lab/package.template/stargazers)
-
-### :card_file_box: [project.template](./project.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/project.template?style=flat-square)](https://github.com/chimera-lab/project.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/project.template?style=flat-square)](https://github.com/chimera-lab/project.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/project.template?style=flat-square)](https://github.com/chimera-lab/project.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/project.template?style=flat-square)](https://github.com/chimera-lab/project.template/stargazers)
-
-### :card_file_box: [repository.template](./repository.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/stargazers)
-
-### :card_file_box: [scaffold.template](./scaffold.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/scaffold.template?style=flat-square)](https://github.com/chimera-lab/scaffold.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/scaffold.template?style=flat-square)](https://github.com/chimera-lab/scaffold.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/scaffold.template?style=flat-square)](https://github.com/chimera-lab/scaffold.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/scaffold.template?style=flat-square)](https://github.com/chimera-lab/scaffold.template/stargazers)
-
-### :card_file_box: [topic.template](./topic.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/topic.template?style=flat-square)](https://github.com/chimera-lab/topic.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/topic.template?style=flat-square)](https://github.com/chimera-lab/topic.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/topic.template?style=flat-square)](https://github.com/chimera-lab/topic.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/topic.template?style=flat-square)](https://github.com/chimera-lab/topic.template/stargazers)
-
-### :card_file_box: [typescript\_app.template](./typescript_app.template/)
-
-[![License](https://img.shields.io/github/license/chimera-lab/typescript_app.template?style=flat-square)](https://github.com/chimera-lab/typescript_app.template/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/typescript_app.template?style=flat-square)](https://github.com/chimera-lab/typescript_app.template/commits) [![Issues](https://img.shields.io/github/issues/chimera-lab/typescript_app.template?style=flat-square)](https://github.com/chimera-lab/typescript_app.template/issues) [![Stars](https://img.shields.io/github/stars/chimera-lab/typescript_app.template?style=flat-square)](https://github.com/chimera-lab/typescript_app.template/stargazers)
 
 <!-- </card> -->
