@@ -14,13 +14,66 @@
 
 ## :book: Table of Contents
 
-- [:file_folder: <!-- <var key="repo.name" applied> -->template.topic<!-- </var> -->](./#file_folder-var-keyreponame-var)
+- [:file_folder: <!-- <var key="repo.name" applied> -->template.topic<!-- </var> -->](./#file_folder-var-keyreponame-applied-templatetopic-var)
   - [:telescope: Overview](./#telescope-overview)
 
 ## :telescope: Overview
 
-<!-- <cmr cmd="submodule.list"> -->
+<!-- <card header="submodules.items.*.name" link="submodules.items.*.url" context="submodules.items.*.type" layout="header|link,context" applied> -->
+<!-- <data name="submodules"> -->
+<!-- <cmr cmd="submodule.list[json]" applied> --><!-- </cmr> -->
+<!-- </data> -->
 
-`directive: <cmr cmd="submodule.list">`
+### [app](./app.template/)
 
-<!-- </cmr> -->
+template
+
+### [diy](./diy.template/)
+
+template
+
+### [docker_scaffold](./docker_scaffold.template/)
+
+template
+
+### [laravel_app](./laravel_app.template/)
+
+template
+
+### [laravel_docker_scaffold](./laravel_docker_scaffold.template/)
+
+template
+
+### [org](./org.template/)
+
+template
+
+### [overview](./overview.template/)
+
+template
+
+### [package](./package.template/)
+
+template
+
+### [project](./project.template/)
+
+template
+
+### [repository](./repository.template/)
+
+template
+
+### [scaffold](./scaffold.template/)
+
+template
+
+### [topic](./topic.template/)
+
+template
+
+### [typescript_app](./typescript_app.template/)
+
+template
+
+<!-- </card> -->
