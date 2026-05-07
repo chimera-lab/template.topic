@@ -15,39 +15,55 @@
 ## :book: Table of Contents
 
 - [:file_folder: <!-- <var key="repo.name" applied> -->template.topic<!-- </var> -->](./#file_folder-var-keyreponame-applied-templatetopic-var)
-  - [:telescope: Overview](./#telescope-overview)
+  - [:card_file_box: Submodules](./#card_file_box-submodules)
+    - [:card_file_box: app](./#card_file_box-appapptemplate)
+    - [:card_file_box: diy](./#card_file_box-diydiytemplate)
+    - [:card_file_box: docker\_scaffold](./#card_file_box-docker-scaffolddocker-scaffoldtemplate)
+    - [:card_file_box: laravel\_app](./#card_file_box-laravel-applaravel-apptemplate)
+    - [:card_file_box: laravel\_docker\_scaffold](./#card_file_box-laravel-docker-scaffoldlaravel-docker-scaffoldtemplate)
+    - [:card_file_box: org](./#card_file_box-orgorgtemplate)
+    - [:card_file_box: overview](./#card_file_box-overviewoverviewtemplate)
+    - [:card_file_box: package](./#card_file_box-packagepackagetemplate)
+    - [:card_file_box: project](./#card_file_box-projectprojecttemplate)
+    - [:card_file_box: repository](./#card_file_box-repositoryrepositorytemplate)
+    - [:card_file_box: scaffold](./#card_file_box-scaffoldscaffoldtemplate)
+    - [:card_file_box: topic](./#card_file_box-topictopictemplate)
+    - [:card_file_box: typescript\_app](./#card_file_box-typescript-apptypescript-apptemplate)
 
-## :telescope: Overview
+## :card_file_box: Submodules
 
 <!-- <card header="submodules.items.*.name" link="submodules.items.*.url" context="submodules.items.*.description" layout="header|link,context" applied> -->
+
 <!-- <data name="submodules"> -->
+
 <!-- <cmr cmd="submodule.list[output=json,fragment=README.md#overview]" applied> --><!-- </cmr> -->
+
 <!-- </data> -->
 
-### [app](./app.template/)
+### :card_file_box: [app](./app.template/)
 
-### [diy](./diy.template/)
+### :card_file_box: [diy](./diy.template/)
 
-### [docker_scaffold](./docker_scaffold.template/)
+### :card_file_box: [docker\_scaffold](./docker_scaffold.template/)
 
-### [laravel_app](./laravel_app.template/)
+### :card_file_box: [laravel\_app](./laravel_app.template/)
 
-### [laravel_docker_scaffold](./laravel_docker_scaffold.template/)
+### :card_file_box: [laravel\_docker\_scaffold](./laravel_docker_scaffold.template/)
 
-### [org](./org.template/)
+### :card_file_box: [org](./org.template/)
 
-### [overview](./overview.template/)
+### :card_file_box: [overview](./overview.template/)
 
-### [package](./package.template/)
+### :card_file_box: [package](./package.template/)
 
-### [project](./project.template/)
+### :card_file_box: [project](./project.template/)
 
-### [repository](./repository.template/)
+### :card_file_box: [repository](./repository.template/)
 
-### [scaffold](./scaffold.template/)
+### :card_file_box: [scaffold](./scaffold.template/)
 
-### [topic](./topic.template/)
+### :card_file_box: [topic](./topic.template/)
 
-### [typescript_app](./typescript_app.template/)
+### :card_file_box: [typescript\_app](./typescript_app.template/)
 
 <!-- </card> -->
