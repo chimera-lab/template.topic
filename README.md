@@ -19,61 +19,35 @@
 
 ## :telescope: Overview
 
-<!-- <card header="submodules.items.*.name" link="submodules.items.*.url" context="submodules.items.*.type" layout="header|link,context" applied> -->
+<!-- <card header="submodules.items.*.name" link="submodules.items.*.url" context="submodules.items.*.description" layout="header|link,context" applied> -->
 <!-- <data name="submodules"> -->
-<!-- <cmr cmd="submodule.list[json]" applied> --><!-- </cmr> -->
+<!-- <cmr cmd="submodule.list[output=json,fragment=README.md#overview]" applied> --><!-- </cmr> -->
 <!-- </data> -->
 
 ### [app](./app.template/)
 
-template
-
 ### [diy](./diy.template/)
-
-template
 
 ### [docker_scaffold](./docker_scaffold.template/)
 
-template
-
 ### [laravel_app](./laravel_app.template/)
-
-template
 
 ### [laravel_docker_scaffold](./laravel_docker_scaffold.template/)
 
-template
-
 ### [org](./org.template/)
-
-template
 
 ### [overview](./overview.template/)
 
-template
-
 ### [package](./package.template/)
-
-template
 
 ### [project](./project.template/)
 
-template
-
 ### [repository](./repository.template/)
-
-template
 
 ### [scaffold](./scaffold.template/)
 
-template
-
 ### [topic](./topic.template/)
 
-template
-
 ### [typescript_app](./typescript_app.template/)
-
-template
 
 <!-- </card> -->
