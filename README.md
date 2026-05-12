@@ -15,7 +15,12 @@
 ## :book: Table of Contents
 
 - [:file_folder: <!-- <var key="repo.name" applied> -->template.topic<!-- </var> -->](./#file_folder-var-keyreponame-var)
+  - [:telescope: Overview](./#telescope-overview)
   - [:card_file_box: Submodules](./#card_file_box-submodules)
+
+## :telescope: Overview
+
+Curated repository templates for the chimera-lab organization — covering apps, packages, scaffolds, topics, and more. Each template enforces shared structure, metadata conventions, and CMR tooling to ensure consistency across new repositories.
 
 ## :card_file_box: Submodules
 
