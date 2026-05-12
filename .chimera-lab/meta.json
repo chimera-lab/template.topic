@@ -16,6 +16,7 @@
   "repo": {
     "name": "template.topic",
     "type": "topic",
-    "project": "chimera-lab-knowledge"
+    "project": "chimera-lab-knowledge",
+    "public": true
   }
 }
